@@ -380,6 +380,15 @@ function positionHoverCard(originalEvent) {
 // Fixed totals across all 15 cities, summed from cities.json. Deliberately NOT
 // derived from visible dots: that would be expensive and would change on pan.
 // Refreshed on view-mode change and initial load only.
+function mappedPointCounts() {
+  const counts = new Map();
+  renderableInfrastructure.forEach((point) => {
+    const key = seriesKeyForPoint(point);
+    if (key) counts.set(key, (counts.get(key) || 0) + 1);
+  });
+  return counts;
+}
+
 function renderAggregateSummary() {
   const host = document.getElementById("aggregate-summary");
   if (!host) return;
@@ -387,19 +396,40 @@ function renderAggregateSummary() {
     host.innerHTML = "";
     return;
   }
+
+  const mapped = mappedPointCounts();
+  let grandCounted = 0;
+  let grandMapped = 0;
+
   const items = countableSeries()
     .map((s) => {
-      const total = cities.reduce((sum, c) => sum + (c[s.key] || 0), 0);
+      const counted = cities.reduce((sum, c) => sum + (c[s.key] || 0), 0);
+      const points = mapped.get(s.key) || 0;
+      grandCounted += counted;
+      grandMapped += points;
+
+      // Flag the two ways the official count and the map can disagree, so a
+      // gap in the source data never looks like a rendering bug.
+      let detail = "";
+      if (points === 0 && counted > 0) {
+        detail = `<span class="summary-gap">counts only \u2014 no mapped points</span>`;
+      } else if (points !== counted) {
+        detail = `<span class="summary-gap">${format.format(points)} mapped</span>`;
+      }
+
       const off = activeCategories.has(s.key) ? "" : " summary-item--off";
-      return `<div class="summary-item${off}"><span class="swatch" style="background:${s.color}"></span><b>${format.format(total)}</b><span class="summary-label">${s.label}</span></div>`;
+      return `<div class="summary-item${off}">
+        <span class="swatch" style="background:${s.color}"></span>
+        <b>${format.format(counted)}</b>
+        <span class="summary-label">${s.label}</span>
+        ${detail}
+      </div>`;
     })
     .join("");
-  const grand = countableSeries().reduce(
-    (sum, s) => sum + cities.reduce((inner, c) => inner + (c[s.key] || 0), 0),
-    0
-  );
+
   host.innerHTML =
-    `<div class="summary-title">All 15 cities &middot; ${VIEW_MODES[viewMode].label} &middot; ${format.format(grand)} total</div>` +
+    `<div class="summary-title">All 15 cities &middot; ${VIEW_MODES[viewMode].label} &middot; ` +
+    `${format.format(grandCounted)} counted &middot; ${format.format(grandMapped)} mapped</div>` +
     `<div class="summary-items">${items}</div>`;
 }
 
