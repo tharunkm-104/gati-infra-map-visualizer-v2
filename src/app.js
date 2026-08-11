@@ -7,7 +7,7 @@ const HOVER_DELAY_MS = 550;
 const GATI = {
   inkMuted: "#9AA3AB",   // --ink-300/400 grey-teal (NABH, high-volume, recessive)
   teal: "#006B76",       // nursing colleges
-  gold: "#C9962C",       // medical colleges
+  gold: "#48878F",       // medical colleges
   goldBright: "#E5A812",
   orange: "#F39821",     // formal German / Goethe
   goldDeep: "#9E7619",   // HEIs offering German
@@ -42,18 +42,6 @@ const VIEW_MODES = {
       { key: "pdot_siics", label: "PDOT/SIIC Centres", color: GATI.goldDeepest },
       { key: "iiscs", label: "IISC Centres", color: "#B0821C" },
       { key: "private_training", label: "Private German Training Organisations", color: "#D9B15E" },
-      // Point-only series. Individually geocoded skilling points collapse PDOT,
-      // SIIC and IISC into one subtype, so they cannot be attributed to the three
-      // series above. Without this entry they had no matching series key, fell
-      // through to the grey fallback colour, and no legend chip controlled them.
-      // pointOnly: excluded from the table and the aggregate strip, because its
-      // rows are already counted inside pdot_siics + iiscs + private_training.
-      {
-        key: "general_skilling_raw",
-        label: "PDOT/SIIC/IISC mapped points (not split by type)",
-        color: GATI.goldDeepest,
-        pointOnly: true,
-      },
       { key: "nursing_colleges", label: "INC Nursing Colleges", color: GATI.teal },
       { key: "medical_colleges", label: "NMC Medical Colleges", color: GATI.gold },
       { key: "health_facilities", label: "NABH Accredited Health Facilities", color: GATI.inkMuted },
@@ -61,13 +49,18 @@ const VIEW_MODES = {
   },
 };
 
-// Individual infrastructure points only carry these 6 distinguishable subtypes.
-// Exam Centres and Private German Training Organisations have no individually
-// geocoded points in the source data -- they only exist as city/state totals.
+// Individual infrastructure points carry these subtypes. Exam Centres and
+// Private German Training Organisations have no individually geocoded points in
+// the source data -- they only exist as city/state totals, so their legend chips
+// toggle a table column but no dots.
 const POINT_SUBTYPE_META = {
   "Goethe/PASCH/Zentrum School": { domain: "language", pairsKey: "formal_german_raw", fullKey: "goethe_schools" },
   "HEI Offering German": { domain: "language", pairsKey: "formal_german_raw", fullKey: "heis_german" },
-  "General Skilling Infrastructure (PDOT/SIIC/IISC)": { domain: "language", pairsKey: "general_skilling_raw", fullKey: "general_skilling_raw" },
+  "PDOT Centre": { domain: "language", pairsKey: "general_skilling_raw", fullKey: "pdot_siics" },
+  "SIIC Centre": { domain: "language", pairsKey: "general_skilling_raw", fullKey: "pdot_siics" },
+  "IISC Centre (PMKK)": { domain: "language", pairsKey: "general_skilling_raw", fullKey: "iiscs" },
+  // Retained only for rows that could not be matched back to a source section.
+  "General Skilling Infrastructure (PDOT/SIIC/IISC)": { domain: "language", pairsKey: "general_skilling_raw", fullKey: "pdot_siics" },
   "NABH Accredited Health Facility": { domain: "health", pairsKey: "health_facilities", fullKey: "health_facilities" },
   "NMC Medical College": { domain: "health", pairsKey: "medical_colleges", fullKey: "medical_colleges" },
   "INC Nursing College": { domain: "health", pairsKey: "nursing_colleges", fullKey: "nursing_colleges" },
@@ -113,10 +106,9 @@ function currentSeries() {
   return VIEW_MODES[viewMode].series;
 }
 
-// Series that carry a count column in cities.json. Point-only series are
-// excluded: counting them would double-count rows already in other series.
+// Every series in every view mode maps to a count column in cities.json.
 function countableSeries() {
-  return currentSeries().filter((s) => !s.pointOnly);
+  return currentSeries();
 }
 
 function activeSeries() {
