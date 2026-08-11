@@ -1,37 +1,50 @@
 const format = new Intl.NumberFormat("en-IN");
 const HOVER_DELAY_MS = 550;
 
+// ---- GATI palette tokens ----
+// Health scale: NABH recedes into the basemap grey, colleges pop.
+// Language/skilling scale: warm orange + gold steps, entirely separate from health hues.
+const GATI = {
+  inkMuted: "#9AA3AB",   // --ink-300/400 grey-teal (NABH, high-volume, recessive)
+  teal: "#006B76",       // nursing colleges
+  gold: "#C9962C",       // medical colleges
+  goldBright: "#E5A812",
+  orange: "#F39821",     // formal German / Goethe
+  goldDeep: "#9E7619",   // HEIs offering German
+  goldDeepest: "#7C5C18" // general skilling
+};
+
 // ---- view mode definitions (raw counts only, no derived scores) ----
 const VIEW_MODES = {
   domain: {
     label: "Language vs Health",
     series: [
-      { key: "language_total", label: "Language Infrastructure", color: "#2f6fed" },
-      { key: "health_total", label: "Health Infrastructure", color: "#1f9d63" },
+      { key: "language_total", label: "Language Infrastructure", color: GATI.orange },
+      { key: "health_total", label: "Health Infrastructure", color: GATI.teal },
     ],
   },
   pairs: {
     label: "By category pair",
     series: [
-      { key: "formal_german_raw", label: "Formal German Infrastructure (Goethe/PASCH/Zentrum + HEIs + Exam Centres)", color: "#2f6fed" },
-      { key: "general_skilling_raw", label: "General Skilling Infrastructure (PDOT/SIIC/IISC + Private Training Orgs)", color: "#93b6ff" },
-      { key: "nursing_colleges", label: "INC Nursing Colleges", color: "#0e6b45" },
-      { key: "medical_colleges", label: "NMC Medical Colleges", color: "#1f9d63" },
-      { key: "health_facilities", label: "NABH Accredited Health Facilities", color: "#8fd6ac" },
+      { key: "formal_german_raw", label: "Formal German Infrastructure (Goethe/PASCH/Zentrum + HEIs + Exam Centres)", color: GATI.orange },
+      { key: "general_skilling_raw", label: "General Skilling Infrastructure (PDOT/SIIC/IISC + Private Training Orgs)", color: GATI.goldDeepest },
+      { key: "nursing_colleges", label: "INC Nursing Colleges", color: GATI.teal },
+      { key: "medical_colleges", label: "NMC Medical Colleges", color: GATI.gold },
+      { key: "health_facilities", label: "NABH Accredited Health Facilities", color: GATI.inkMuted },
     ],
   },
   full: {
     label: "Fully disaggregated",
     series: [
-      { key: "goethe_schools", label: "Goethe/PASCH/Zentrum Schools", color: "#1c4fc4" },
-      { key: "heis_german", label: "HEIs Offering German", color: "#3f74e6" },
-      { key: "exam_centres", label: "Goethe/TELC Exam Centres", color: "#6f97ee" },
-      { key: "pdot_siics", label: "PDOT/SIIC Centres", color: "#93b6ff" },
-      { key: "iiscs", label: "IISC Centres", color: "#b7ceff" },
-      { key: "private_training", label: "Private German Training Organisations", color: "#d6e2ff" },
-      { key: "nursing_colleges", label: "INC Nursing Colleges", color: "#0e6b45" },
-      { key: "medical_colleges", label: "NMC Medical Colleges", color: "#1f9d63" },
-      { key: "health_facilities", label: "NABH Accredited Health Facilities", color: "#8fd6ac" },
+      { key: "goethe_schools", label: "Goethe/PASCH/Zentrum Schools", color: GATI.orange },
+      { key: "heis_german", label: "HEIs Offering German", color: GATI.goldDeep },
+      { key: "exam_centres", label: "Goethe/TELC Exam Centres", color: GATI.goldBright },
+      { key: "pdot_siics", label: "PDOT/SIIC Centres", color: GATI.goldDeepest },
+      { key: "iiscs", label: "IISC Centres", color: "#B0821C" },
+      { key: "private_training", label: "Private German Training Organisations", color: "#D9B15E" },
+      { key: "nursing_colleges", label: "INC Nursing Colleges", color: GATI.teal },
+      { key: "medical_colleges", label: "NMC Medical Colleges", color: GATI.gold },
+      { key: "health_facilities", label: "NABH Accredited Health Facilities", color: GATI.inkMuted },
     ],
   },
 };
@@ -48,7 +61,8 @@ const POINT_SUBTYPE_META = {
   "INC Nursing College": { domain: "health", pairsKey: "nursing_colleges", fullKey: "nursing_colleges" },
 };
 
-const DOMAIN_COLOR = { language: "#2f6fed", health: "#1f9d63" };
+const DOMAIN_COLOR = { language: GATI.orange, health: GATI.teal };
+const FALLBACK_COLOR = GATI.inkMuted;
 
 const CITY_PALETTE = [...d3.schemeTableau10, ...d3.schemeSet3];
 let cityColorScale = null;
@@ -64,6 +78,10 @@ let activeMarkers = [];
 let activeIndex = null;
 let hoverTimer = null;
 
+// Legend filter state: which series keys are currently switched on.
+// Reset to "all on" whenever the view mode changes.
+let activeCategories = new Set(VIEW_MODES[viewMode].series.map((s) => s.key));
+
 const map = L.map("map", {
   zoomControl: false,
   scrollWheelZoom: true,
@@ -75,8 +93,20 @@ L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
   maxZoom: 19,
 }).addTo(map);
 
+// Shared canvas renderer -- ~4,400 circleMarkers on one canvas instead of
+// ~4,400 divIcon DOM nodes. This is what keeps the full-India dot view usable.
+const infraCanvas = L.canvas({ padding: 0.3 });
+
 function currentSeries() {
   return VIEW_MODES[viewMode].series;
+}
+
+function activeSeries() {
+  return currentSeries().filter((s) => activeCategories.has(s.key));
+}
+
+function resetActiveCategories() {
+  activeCategories = new Set(currentSeries().map((s) => s.key));
 }
 
 function safeLevel() {
@@ -87,14 +117,34 @@ function safeLevel() {
   return "infrastructure";
 }
 
+// Only sums series that are currently switched on, so bubble sizes and the
+// table stay consistent with whatever is deselected in the legend.
 function locationTotal(row) {
-  return currentSeries().reduce((sum, s) => sum + (row[s.key] || 0), 0);
+  return activeSeries().reduce((sum, s) => sum + (row[s.key] || 0), 0);
+}
+
+// The series key an individual infra point maps to under the current view mode.
+// Returns null when the point's subtype has no matching series (e.g. the
+// PDOT/SIIC/IISC bundle in "Fully disaggregated", which is split across three
+// series that individual points cannot be attributed to).
+function seriesKeyForPoint(point) {
+  const meta = POINT_SUBTYPE_META[point.subtype];
+  if (!meta) return null;
+  if (viewMode === "domain") return `${meta.domain}_total`;
+  const key = viewMode === "pairs" ? meta.pairsKey : meta.fullKey;
+  return currentSeries().some((s) => s.key === key) ? key : null;
+}
+
+function isPointActive(point) {
+  const key = seriesKeyForPoint(point);
+  if (key === null) return true; // unmapped subtypes are never filtered out
+  return activeCategories.has(key);
 }
 
 function pointsForLevel(level) {
   if (level === "state") return states.map((s) => ({ ...s, levelName: s.state }));
   if (level === "city") return cities.map((c) => ({ ...c, levelName: c.city }));
-  return renderableInfrastructure;
+  return renderableInfrastructure.filter(isPointActive);
 }
 
 function featureForPoint(point, level) {
@@ -105,16 +155,20 @@ function featureForPoint(point, level) {
   };
 }
 
+// State/city levels still cluster. Infrastructure level does NOT -- every dot is
+// drawn individually at any zoom, so wide zoom-outs no longer collapse into
+// grey count-bubbles.
 function buildIndex(level) {
+  if (level === "infrastructure") {
+    activeIndex = null;
+    return;
+  }
   const points = pointsForLevel(level).filter((p) => Number.isFinite(p.latitude) && Number.isFinite(p.longitude));
   const features = points.map((p) => featureForPoint(p, level));
   activeIndex = new Supercluster({
-    radius: level === "infrastructure" ? 52 : 44,
-    maxZoom: level === "infrastructure" ? 15 : 11,
-    map: (props) => {
-      const acc = { count: 1, total: level === "infrastructure" ? 1 : locationTotal(props) };
-      return acc;
-    },
+    radius: 44,
+    maxZoom: 11,
+    map: (props) => ({ count: 1, total: locationTotal(props) }),
     reduce: (accumulated, props) => {
       accumulated.count += props.count;
       accumulated.total += props.total;
@@ -131,7 +185,21 @@ function drawMarkers() {
   const level = safeLevel();
   clearMarkers();
   buildIndex(level);
-  const bounds = map.getBounds();
+  const bounds = map.getBounds().pad(0.2);
+
+  if (level === "infrastructure") {
+    // Raw dot mode: no clustering, canvas-rendered circle markers.
+    pointsForLevel("infrastructure").forEach((point) => {
+      if (!Number.isFinite(point.latitude) || !Number.isFinite(point.longitude)) return;
+      if (!bounds.contains([point.latitude, point.longitude])) return;
+      const marker = infrastructureMarker(point, point.latitude, point.longitude);
+      marker.addTo(map);
+      activeMarkers.push(marker);
+    });
+    renderTable(level);
+    return;
+  }
+
   const bbox = [bounds.getWest(), bounds.getSouth(), bounds.getEast(), bounds.getNorth()];
   const clusters = activeIndex.getClusters(bbox, Math.round(map.getZoom()));
   clusters.forEach((feature) => {
@@ -158,13 +226,11 @@ function maxTotalForLevel(level) {
 
 function clusterMarker(feature, level, latitude, longitude) {
   const props = feature.properties;
-  const maxTotal = maxTotalForLevel(level === "infrastructure" ? "city" : level);
-  const total = level === "infrastructure" ? props.point_count : props.total;
-  const size = level === "infrastructure" ? Math.max(30, Math.min(70, 24 + Math.sqrt(props.point_count) * 6)) : radiusForTotal(total, maxTotal);
-  const color = level === "infrastructure" ? "#9aa5b1" : "#5b6673";
+  const maxTotal = maxTotalForLevel(level);
+  const size = radiusForTotal(props.total, maxTotal);
   const marker = L.marker([latitude, longitude], {
     icon: L.divIcon({
-      html: `<div class="cluster-bubble" style="width:${size}px;height:${size}px;background:${color}">${format.format(props.point_count)}</div>`,
+      html: `<div class="cluster-bubble" style="width:${size}px;height:${size}px;background:#5b6673">${format.format(props.point_count)}</div>`,
       className: "",
       iconSize: [size, size],
       iconAnchor: [size / 2, size / 2],
@@ -179,16 +245,11 @@ function clusterMarker(feature, level, latitude, longitude) {
 }
 
 function clusterHoverHtml(level, props) {
-  if (level === "infrastructure") {
-    return `<strong>${format.format(props.point_count)} infrastructure points</strong><div>Zoom in to see individual entries</div>`;
-  }
   return `<strong>${format.format(props.point_count)} ${level === "state" ? "states" : "cities"} clustered</strong><div>Total ${VIEW_MODES[viewMode].label.toLowerCase()}: ${format.format(props.total)}</div>`;
 }
 
 function pointMarker(feature, level, latitude, longitude) {
   const point = feature.properties;
-  if (level === "infrastructure") return infrastructureMarker(point, latitude, longitude);
-
   const maxTotal = maxTotalForLevel(level);
   const total = locationTotal(point);
   const size = radiusForTotal(total, maxTotal);
@@ -208,35 +269,37 @@ function pointMarker(feature, level, latitude, longitude) {
 
 function locationHoverHtml(point) {
   const rows = currentSeries()
-    .map((s) => `<div class="hover-row"><span>${s.label}</span><b>${format.format(point[s.key] || 0)}</b></div>`)
+    .map((s) => {
+      const off = activeCategories.has(s.key) ? "" : " hover-row--off";
+      return `<div class="hover-row${off}"><span>${s.label}</span><b>${format.format(point[s.key] || 0)}</b></div>`;
+    })
     .join("");
   return `<strong>${point.levelName}</strong>${rows}`;
 }
 
+// Canvas circleMarker -- cheap enough to draw every point at any zoom.
 function infrastructureMarker(point, latitude, longitude) {
-  const meta = POINT_SUBTYPE_META[point.subtype];
-  const color = pointColor(point, meta);
-  const marker = L.marker([latitude, longitude], {
-    icon: L.divIcon({
-      html: `<span class="infra-dot" style="background:${color}"></span>`,
-      className: "",
-      iconSize: [13, 13],
-      iconAnchor: [6.5, 6.5],
-    }),
+  const color = pointColor(point);
+  const marker = L.circleMarker([latitude, longitude], {
+    renderer: infraCanvas,
+    radius: 4.5,
+    weight: 1,
+    color: "#ffffff",
+    opacity: 0.9,
+    fillColor: color,
+    fillOpacity: 0.95,
   });
   bindHover(marker, () => infrastructureHoverHtml(point));
   return marker;
 }
 
-function pointColor(point, meta) {
-  if (!meta) return "#9aa5b1";
+function pointColor(point) {
+  const meta = POINT_SUBTYPE_META[point.subtype];
+  if (!meta) return FALLBACK_COLOR;
   if (viewMode === "domain") return DOMAIN_COLOR[meta.domain];
-  if (viewMode === "pairs") {
-    const series = VIEW_MODES.pairs.series.find((s) => s.key === meta.pairsKey);
-    return series ? series.color : "#9aa5b1";
-  }
-  const series = VIEW_MODES.full.series.find((s) => s.key === meta.fullKey);
-  return series ? series.color : "#9aa5b1";
+  const key = viewMode === "pairs" ? meta.pairsKey : meta.fullKey;
+  const series = currentSeries().find((s) => s.key === key);
+  return series ? series.color : FALLBACK_COLOR;
 }
 
 function infrastructureHoverHtml(point) {
@@ -278,17 +341,59 @@ function positionHoverCard(originalEvent) {
   hoverCard.style.top = `${originalEvent.clientY - mapRect.top + 16}px`;
 }
 
+// ---- aggregate summary strip ----
+// Fixed totals across all 15 cities, summed from cities.json. Deliberately NOT
+// derived from visible dots: that would be expensive and would change on pan.
+// Refreshed on view-mode change and initial load only.
+function renderAggregateSummary() {
+  const host = document.getElementById("aggregate-summary");
+  if (!host) return;
+  if (!cities.length) {
+    host.innerHTML = "";
+    return;
+  }
+  const items = currentSeries()
+    .map((s) => {
+      const total = cities.reduce((sum, c) => sum + (c[s.key] || 0), 0);
+      const off = activeCategories.has(s.key) ? "" : " summary-item--off";
+      return `<div class="summary-item${off}"><span class="swatch" style="background:${s.color}"></span><b>${format.format(total)}</b><span class="summary-label">${s.label}</span></div>`;
+    })
+    .join("");
+  const grand = currentSeries().reduce(
+    (sum, s) => sum + cities.reduce((inner, c) => inner + (c[s.key] || 0), 0),
+    0
+  );
+  host.innerHTML =
+    `<div class="summary-title">All 15 cities &middot; ${VIEW_MODES[viewMode].label} &middot; ${format.format(grand)} total</div>` +
+    `<div class="summary-items">${items}</div>`;
+}
+
 // ---- legend ----
 function renderLegend() {
   const legend = document.getElementById("legend");
   const level = safeLevel();
   if (level === "infrastructure") {
     legend.innerHTML = currentSeries()
-      .map((s) => `<div><span class="swatch" style="background:${s.color}"></span>${s.label}</div>`)
+      .map((s) => {
+        const on = activeCategories.has(s.key);
+        const style = on
+          ? `background:${s.color};border-color:${s.color};color:#fff;`
+          : `background:transparent;border-color:${s.color};color:${s.color};`;
+        return `<button type="button" class="legend-chip${on ? " active" : ""}" data-key="${s.key}" aria-pressed="${on}" style="${style}"><span class="chip-dot" style="background:${on ? "#fff" : s.color}"></span>${s.label}</button>`;
+      })
       .join("");
+    legend.querySelectorAll(".legend-chip").forEach((chip) => {
+      chip.addEventListener("click", () => {
+        const key = chip.dataset.key;
+        if (activeCategories.has(key)) activeCategories.delete(key);
+        else activeCategories.add(key);
+        renderAggregateSummary();
+        drawMarkers();
+      });
+    });
     return;
   }
-  legend.innerHTML = `<div class="legend-note">Bubble color reflects each ${level === "state" ? "state" : "city"}; bubble size reflects total ${VIEW_MODES[viewMode].label.toLowerCase()}.</div>`;
+  legend.innerHTML = `<div class="legend-note">Bubble color reflects each ${level === "state" ? "state" : "city"}; bubble size reflects total ${VIEW_MODES[viewMode].label.toLowerCase()} across selected categories.</div>`;
 }
 
 // ---- location table ----
@@ -298,17 +403,23 @@ function renderTable(level) {
   const rows = level === "state" ? states : cities;
   const sorted = rows.slice().sort((a, b) => (a.levelName || a.city || a.state).localeCompare(b.levelName || b.city || b.state));
   const series = currentSeries();
+  // Drives the fixed-width grid columns in styles.css so the table scrolls
+  // horizontally instead of compressing.
+  container.style.setProperty("--col-count", series.length);
   const head = `<div class="table-row table-head"><span>${level === "state" ? "State" : "City"}</span>${series
-    .map((s) => `<span>${s.label}</span>`)
+    .map((s) => `<span${activeCategories.has(s.key) ? "" : ' class="col-off"'}>${s.label}</span>`)
     .join("")}</div>`;
   const body = sorted
     .map((row) => {
-      const cells = series.map((s) => `<span>${format.format(row[s.key] || 0)}</span>`).join("");
+      const cells = series
+        .map((s) => `<span${activeCategories.has(s.key) ? "" : ' class="col-off"'}>${format.format(row[s.key] || 0)}</span>`)
+        .join("");
       const name = level === "state" ? row.state : row.city;
-      return `<div class="table-row"><span>${name}</span>${cells}</div>`;
+      return `<div class="table-row"><span>${name}</span>${cells}<span class="row-total">${format.format(locationTotal(row))}</span></div>`;
     })
     .join("");
-  container.innerHTML = head + body;
+  container.innerHTML =
+    head.replace("</div>", "<span>Selected total</span></div>") + body;
 }
 
 // ---- controls ----
@@ -323,7 +434,9 @@ document.querySelectorAll(".level-button").forEach((button) => {
 document.querySelectorAll(".mode-button").forEach((button) => {
   button.addEventListener("click", () => {
     viewMode = button.dataset.mode;
+    resetActiveCategories();
     document.querySelectorAll(".mode-button").forEach((b) => b.classList.toggle("active", b === button));
+    renderAggregateSummary();
     drawMarkers();
   });
 });
@@ -335,6 +448,7 @@ map.on("zoomend moveend", () => {
 function isRenderableInfra(point) {
   return (
     point.coordinateStatus !== "undefined_flagged" &&
+    point.coordinateStatus !== "outside_city_limits" &&
     Number.isFinite(point.latitude) &&
     Number.isFinite(point.longitude) &&
     !(point.latitude === 0 && point.longitude === 0)
@@ -356,6 +470,8 @@ Promise.all([
     console.info(
       `[infrastructure-layer] renderable=${renderableInfrastructure.length} dropped=${infrastructure.length - renderableInfrastructure.length} total=${infrastructure.length}`
     );
+    resetActiveCategories();
+    renderAggregateSummary();
     drawMarkers();
   })
   .catch((error) => {
