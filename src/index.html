@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Infrastructure Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="map-pane" aria-label="Infrastructure map">
+        <header class="topbar">
+          <h1>Infrastructure Map</h1>
+        </header>
+
+        <div id="map" role="application" aria-label="Map of tracked infrastructure"></div>
+
+        <div id="hover-card" class="hover-card" hidden></div>
+
+        <div class="bottom-bar">
+          <div class="view-mode-row" role="group" aria-label="View mode">
+            <button class="mode-button active" data-mode="domain" type="button">Language vs Health</button>
+            <button class="mode-button" data-mode="pairs" type="button">By category pair</button>
+            <button class="mode-button" data-mode="full" type="button">Fully disaggregated</button>
+          </div>
+          <div id="legend" class="legend" aria-label="Legend"></div>
+        </div>
+      </section>
+
+      <aside class="detail-pane" aria-label="Zoom level and location counts">
+        <div class="level-row">
+          <button class="level-button active" data-level="auto" type="button">Automatic zoom</button>
+          <button class="level-button" data-level="state" type="button">State</button>
+          <button class="level-button" data-level="city" type="button">City</button>
+          <button class="level-button" data-level="infrastructure" type="button">Infrastructure</button>
+        </div>
+        <section class="panel">
+          <div id="location-table" class="location-table"></div>
+        </section>
+      </aside>
+    </main>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/supercluster@8.0.1/dist/supercluster.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
