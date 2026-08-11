@@ -739,7 +739,7 @@
   {
     "name": "Videsh Bhawan, Mumbai",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "PDOT Centre",
     "city": "Mumbai",
     "state": "Maharashtra",
     "district": "Mumbai Suburban",
@@ -750,7 +750,7 @@
   {
     "name": "Sakinaka",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "PDOT Centre",
     "city": "Mumbai",
     "state": "Maharashtra",
     "district": "Mumbai Suburban",
@@ -761,7 +761,7 @@
   {
     "name": "Espoir Academy",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "PDOT Centre",
     "city": "Kochi",
     "state": "Kerala",
     "district": "Ernakulam",
@@ -772,7 +772,7 @@
   {
     "name": "Tomcom Overseas Skill",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "PDOT Centre",
     "city": "Hyderabad",
     "state": "Telangana",
     "district": "Hyderabad",
@@ -783,7 +783,7 @@
   {
     "name": "Chennai",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "PDOT Centre",
     "city": "Chennai",
     "state": "Tamil Nadu",
     "district": "Chennai",
@@ -794,7 +794,7 @@
   {
     "name": "Tamil Nadu",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "PDOT Centre",
     "city": "Chennai",
     "state": "Tamil Nadu",
     "district": "Chennai",
@@ -805,7 +805,7 @@
   {
     "name": "International Migration Centre – Karnataka",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "PDOT Centre",
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bengaluru Urban",
@@ -816,7 +816,7 @@
   {
     "name": "Quivan Skill Empowerment Pvt. Ltd., Kolkata",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "PDOT Centre",
     "city": "Kolkata",
     "state": "West Bengal",
     "district": "North 24 Parganas",
@@ -827,7 +827,7 @@
   {
     "name": "Learnet Institute of Skill, Kowdiar, Thiruvananthapuram",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "PDOT Centre",
     "city": "Thiruvananthapuram",
     "state": "Kerala",
     "district": "Thiruvananthapuram",
@@ -838,7 +838,7 @@
   {
     "name": "GMR Varalakshmi Foundation Delhi",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "PDOT Centre",
     "city": "New Delhi",
     "state": "Delhi",
     "district": "South West Delhi",
@@ -849,7 +849,7 @@
   {
     "name": "VFS Global Pvt. Ltd",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "PDOT Centre",
     "city": "New Delhi",
     "state": "Delhi",
     "district": "New Delhi",
@@ -860,7 +860,7 @@
   {
     "name": "SIIC Bengaluru",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "SIIC Centre",
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bengaluru",
@@ -871,7 +871,7 @@
   {
     "name": "SIIC Hyderabad",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "SIIC Centre",
     "city": "Hyderabad",
     "state": "Telangana",
     "district": "Hyderabad",
@@ -882,7 +882,7 @@
   {
     "name": "2COMS Consulting Pvt. Ltd",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Chandigarh",
     "state": "Chandigarh",
     "district": "Chandigarh",
@@ -893,7 +893,7 @@
   {
     "name": "2COMS Consulting Pvt. Ltd",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Thiruvananthapuram",
     "state": "Kerala",
     "district": "Thiruvananthapuram",
@@ -904,7 +904,7 @@
   {
     "name": "Acme India Microsys PvtLtd..",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Kochi",
     "state": "Kerala",
     "district": "Ernakulam",
@@ -915,7 +915,7 @@
   {
     "name": "AISECT Skill Mission Society",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bengaluru Urban",
@@ -926,7 +926,7 @@
   {
     "name": "AISECT Skill Mission Society",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Mumbai",
     "state": "Maharashtra",
     "district": "Mumbai City",
@@ -937,7 +937,7 @@
   {
     "name": "AISECT Skill Mission Society",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Pune",
     "state": "Maharashtra",
     "district": "Pune",
@@ -948,7 +948,7 @@
   {
     "name": "Akal HR Solutions Private Limited",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "New Delhi",
     "state": "Delhi",
     "district": "New Delhi",
@@ -959,7 +959,7 @@
   {
     "name": "Apollo MedSkills Limited",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bengaluru Urban",
@@ -970,7 +970,7 @@
   {
     "name": "Apollo MedSkills Limited",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Chennai",
     "state": "Tamil Nadu",
     "district": "Chennai",
@@ -981,7 +981,7 @@
   {
     "name": "Apollo MedSkills Limited",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Hyderabad",
     "state": "Telangana",
     "district": "Hyderabad",
@@ -992,7 +992,7 @@
   {
     "name": "Apollo MedSkills Limited",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "New Delhi",
     "state": "Delhi",
     "district": "South Delhi",
@@ -1003,7 +1003,7 @@
   {
     "name": "Asmacs Skill Development Limited",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Chandigarh",
     "state": "Punjab",
     "district": "Chandigarh",
@@ -1014,7 +1014,7 @@
   {
     "name": "Asmacs Skill Development Limited",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Chennai",
     "state": "Tamil Nadu",
     "district": "Chennai",
@@ -1025,7 +1025,7 @@
   {
     "name": "Asmacs Skill Development Limited",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "New Delhi",
     "state": "Delhi",
     "district": "South Delhi",
@@ -1036,7 +1036,7 @@
   {
     "name": "Asmacs Skill Development Limited",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Mumbai",
     "state": "Maharashtra",
     "district": "Mumbai City",
@@ -1047,7 +1047,7 @@
   {
     "name": "Balanagar Technical Institute Private ITI",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Kochi",
     "state": "Kerala",
     "district": "Ernakulam",
@@ -1058,7 +1058,7 @@
   {
     "name": "BSL Multiskills",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "New Delhi",
     "state": "Delhi",
     "district": "South Delhi",
@@ -1069,7 +1069,7 @@
   {
     "name": "BSL Multiskills",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Mumbai",
     "state": "Maharashtra",
     "district": "Mumbai City",
@@ -1080,7 +1080,7 @@
   {
     "name": "BSL Multiskills",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Hyderabad",
     "state": "Telangana",
     "district": "Hyderabad",
@@ -1091,7 +1091,7 @@
   {
     "name": "Centum Learning Limited",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Pune",
     "state": "Maharashtra",
     "district": "Pune",
@@ -1102,7 +1102,7 @@
   {
     "name": "Council of Education and Development Programmes Pvt Ltd",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Mumbai",
     "state": "Maharashtra",
     "district": "Mumbai Suburban",
@@ -1113,7 +1113,7 @@
   {
     "name": "Council of Education and Development Programmes Pvt Ltd",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Mumbai",
     "state": "Maharashtra",
     "district": "Mumbai Suburban",
@@ -1124,7 +1124,7 @@
   {
     "name": "Dhanush Enggservices India Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bengaluru Urban",
@@ -1135,7 +1135,7 @@
   {
     "name": "Dhanush Enggservices India Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Chennai",
     "state": "Tamil Nadu",
     "district": "Chennai",
@@ -1146,7 +1146,7 @@
   {
     "name": "Dhanush Enggservices India Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Kochi",
     "state": "Kerala",
     "district": "Ernakulam",
@@ -1157,7 +1157,7 @@
   {
     "name": "Dhanush Enggservices India Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Hyderabad",
     "state": "Telangana",
     "district": "Hyderabad",
@@ -1168,7 +1168,7 @@
   {
     "name": "Don Bosco Tech Society",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Chennai",
     "state": "Tamil Nadu",
     "district": "Chennai",
@@ -1179,7 +1179,7 @@
   {
     "name": "Don Bosco Tech Society",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Hyderabad",
     "state": "Telangana",
     "district": "Hyderabad",
@@ -1190,7 +1190,7 @@
   {
     "name": "Don Bosco Tech Society",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Kolkata",
     "state": "West Bengal",
     "district": "Kolkata",
@@ -1201,7 +1201,7 @@
   {
     "name": "Dynamic Staffing Services Private Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Chennai",
     "state": "Tamil Nadu",
     "district": "Chennai",
@@ -1212,7 +1212,7 @@
   {
     "name": "Dynamic Staffing Services Private Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "New Delhi",
     "state": "Delhi",
     "district": "South West Delhi",
@@ -1223,7 +1223,7 @@
   {
     "name": "EduBridge Learning PvtLtd..",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Thiruvananthapuram",
     "state": "Kerala",
     "district": "Thiruvananthapuram",
@@ -1234,7 +1234,7 @@
   {
     "name": "Empower Pragati Vocational and Staffing Private Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Pune",
     "state": "Maharashtra",
     "district": "Pune",
@@ -1245,7 +1245,7 @@
   {
     "name": "Eram Technologies Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Kochi",
     "state": "Kerala",
     "district": "Ernakulam",
@@ -1256,7 +1256,7 @@
   {
     "name": "Funfirst Global Skillers Private Limited",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Mumbai",
     "state": "Maharashtra",
     "district": "Mumbai City",
@@ -1267,7 +1267,7 @@
   {
     "name": "Funfirst Global Skillers Private Limited",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Thiruvananthapuram",
     "state": "Kerala",
     "district": "Thiruvananthapuram",
@@ -1278,7 +1278,7 @@
   {
     "name": "Gram Tarang Employability Training Services",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "New Delhi",
     "state": "Delhi",
     "district": "New Delhi",
@@ -1289,7 +1289,7 @@
   {
     "name": "Gulf Associates",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "New Delhi",
     "state": "Delhi",
     "district": "South Delhi",
@@ -1300,7 +1300,7 @@
   {
     "name": "Gulf Associates",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "New Delhi",
     "state": "Delhi",
     "district": "South Delhi",
@@ -1311,7 +1311,7 @@
   {
     "name": "HI-NO-DE Foundation",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Hyderabad",
     "state": "Telangana",
     "district": "Hyderabad",
@@ -1322,7 +1322,7 @@
   {
     "name": "Indianeers Media Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Kochi",
     "state": "Kerala",
     "district": "Ernakulam",
@@ -1333,7 +1333,7 @@
   {
     "name": "Indianeers Media Pvt. Ltd..",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Kochi",
     "state": "Kerala",
     "district": "Ernakulam",
@@ -1344,7 +1344,7 @@
   {
     "name": "Indianeers Media Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Thrissur",
     "state": "Kerala",
     "district": "Thrissur",
@@ -1355,7 +1355,7 @@
   {
     "name": "Indianeers Media Pvt. Ltd..",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Thrissur",
     "state": "Kerala",
     "district": "Thrissur",
@@ -1366,7 +1366,7 @@
   {
     "name": "Indianeers Media Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Kolkata",
     "state": "West Bengal",
     "district": "Kolkata",
@@ -1377,7 +1377,7 @@
   {
     "name": "Indocosmo Systems Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Kochi",
     "state": "Kerala",
     "district": "Ernakulam",
@@ -1388,7 +1388,7 @@
   {
     "name": "Inland Bharti Skills Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "New Delhi",
     "state": "Delhi",
     "district": "South East Delhi",
@@ -1399,7 +1399,7 @@
   {
     "name": "Jagan Raj Professional Studies Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Mumbai",
     "state": "Maharashtra",
     "district": "Mumbai City",
@@ -1410,7 +1410,7 @@
   {
     "name": "Keertika Academy Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Kolkata",
     "state": "West Bengal",
     "district": "Kolkata",
@@ -1421,7 +1421,7 @@
   {
     "name": "Learnet Skills Limited",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Thiruvananthapuram",
     "state": "Kerala",
     "district": "Thiruvananthapuram",
@@ -1432,7 +1432,7 @@
   {
     "name": "Learnet Skills Limited",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "New Delhi",
     "state": "Delhi",
     "district": "South Delhi",
@@ -1443,7 +1443,7 @@
   {
     "name": "Manpasand Manpower Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Chandigarh",
     "state": "Chandigarh",
     "district": "Chandigarh",
@@ -1454,7 +1454,7 @@
   {
     "name": "Manpasand Manpower Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "New Delhi",
     "state": "Delhi",
     "district": "South Delhi",
@@ -1465,7 +1465,7 @@
   {
     "name": "NAVIS Human Resources Private Limited",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Chennai",
     "state": "Tamil Nadu",
     "district": "Chennai",
@@ -1476,7 +1476,7 @@
   {
     "name": "NAVIS Human Resources Private Limited",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bengaluru Urban",
@@ -1487,7 +1487,7 @@
   {
     "name": "New Directions Educational Society",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Hyderabad",
     "state": "Telangana",
     "district": "Hyderabad",
@@ -1498,7 +1498,7 @@
   {
     "name": "OISCA International, South India Chapter",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Kozhikode North + South",
     "state": "Kerala",
     "district": "Kozhikode",
@@ -1509,7 +1509,7 @@
   {
     "name": "Orane International Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Chandigarh",
     "state": "Punjab",
     "district": "Chandigarh",
@@ -1520,7 +1520,7 @@
   {
     "name": "Orane International Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Mumbai",
     "state": "Maharashtra",
     "district": "Mumbai City",
@@ -1531,7 +1531,7 @@
   {
     "name": "Orane International Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "New Delhi",
     "state": "Delhi",
     "district": "New Delhi",
@@ -1542,7 +1542,7 @@
   {
     "name": "Orane International Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "New Delhi",
     "state": "Delhi",
     "district": "New Delhi",
@@ -1553,7 +1553,7 @@
   {
     "name": "Orion Edutech Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "New Delhi",
     "state": "Delhi",
     "district": "New Delhi",
@@ -1564,7 +1564,7 @@
   {
     "name": "Oscar Trust",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bengaluru Urban",
@@ -1575,7 +1575,7 @@
   {
     "name": "Oscar Trust",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Chennai",
     "state": "Tamil Nadu",
     "district": "Chennai",
@@ -1586,7 +1586,7 @@
   {
     "name": "PanIIT Alumni Reach for India (PARFI)",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Chennai",
     "state": "Tamil Nadu",
     "district": "Chennai",
@@ -1597,7 +1597,7 @@
   {
     "name": "Prayas JAC Society",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "New Delhi",
     "state": "Delhi",
     "district": "South Delhi",
@@ -1608,7 +1608,7 @@
   {
     "name": "Public Affairs Centre",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bengaluru Urban",
@@ -1619,7 +1619,7 @@
   {
     "name": "Quivan Skill Empowerment Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Kolkata",
     "state": "West Bengal",
     "district": "Kolkata",
@@ -1630,7 +1630,7 @@
   {
     "name": "Quivan Skill Empowerment Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Kolkata",
     "state": "West Bengal",
     "district": "Kolkata",
@@ -1641,7 +1641,7 @@
   {
     "name": "Rooman Technologies Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bengaluru Urban",
@@ -1652,7 +1652,7 @@
   {
     "name": "Rooman Technologies Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bengaluru Urban",
@@ -1663,7 +1663,7 @@
   {
     "name": "Rooman Technologies PvtLtd..",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bengaluru Urban",
@@ -1674,7 +1674,7 @@
   {
     "name": "Rooman Technologies Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Chennai",
     "state": "Tamil Nadu",
     "district": "Chennai",
@@ -1685,7 +1685,7 @@
   {
     "name": "Rooman Technologies Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Pune",
     "state": "Maharashtra",
     "district": "Pune",
@@ -1696,7 +1696,7 @@
   {
     "name": "Rustomjee Academy for Global Careers Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bengaluru Urban",
@@ -1707,7 +1707,7 @@
   {
     "name": "Rustomjee Academy for Global Careers Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Mumbai",
     "state": "Maharashtra",
     "district": "Mumbai City",
@@ -1718,7 +1718,7 @@
   {
     "name": "Rustomjee Academy for Global Careers Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Mumbai",
     "state": "Maharashtra",
     "district": "Mumbai City",
@@ -1729,7 +1729,7 @@
   {
     "name": "Simran Holidays Private Limited",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "New Delhi",
     "state": "Delhi",
     "district": "West Delhi",
@@ -1740,7 +1740,7 @@
   {
     "name": "SIMS Healthcare",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Hyderabad",
     "state": "Telangana",
     "district": "Hyderabad",
@@ -1751,7 +1751,7 @@
   {
     "name": "Skills and You Consultants (P) Limited",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bengaluru Urban",
@@ -1762,7 +1762,7 @@
   {
     "name": "Skills and You Consultants (P) Limited",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bengaluru Urban",
@@ -1773,7 +1773,7 @@
   {
     "name": "SkillSonics India Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "New Delhi",
     "state": "Delhi",
     "district": "South West Delhi",
@@ -1784,7 +1784,7 @@
   {
     "name": "SkillSonics India Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Mumbai",
     "state": "Maharashtra",
     "district": "Mumbai City",
@@ -1795,7 +1795,7 @@
   {
     "name": "SkillSonics India Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Pune",
     "state": "Maharashtra",
     "district": "Pune",
@@ -1806,7 +1806,7 @@
   {
     "name": "SkillSonics India Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Thiruvananthapuram",
     "state": "Kerala",
     "district": "Thiruvananthapuram",
@@ -1817,7 +1817,7 @@
   {
     "name": "Smartskills Bits and Bytes Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Thrissur",
     "state": "Kerala",
     "district": "Thrissur",
@@ -1828,7 +1828,7 @@
   {
     "name": "SMEC Automation Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bengaluru Urban",
@@ -1839,7 +1839,7 @@
   {
     "name": "SMEC Automation Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Kozhikode North + South",
     "state": "Kerala",
     "district": "Kozhikode",
@@ -1850,7 +1850,7 @@
   {
     "name": "SMEC Automation Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Chennai",
     "state": "Tamil Nadu",
     "district": "Chennai",
@@ -1861,7 +1861,7 @@
   {
     "name": "SMEC Automation Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Kochi",
     "state": "Kerala",
     "district": "Ernakulam",
@@ -1872,7 +1872,7 @@
   {
     "name": "SMEC Automation Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Kochi",
     "state": "Kerala",
     "district": "Ernakulam",
@@ -1883,7 +1883,7 @@
   {
     "name": "SMEC Automation Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Coimbatore North + South",
     "state": "Tamil Nadu",
     "district": "Coimbatore",
@@ -1894,7 +1894,7 @@
   {
     "name": "SMEC Automation Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Hyderabad",
     "state": "Telangana",
     "district": "Hyderabad",
@@ -1905,7 +1905,7 @@
   {
     "name": "SMEC Automation Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Mumbai",
     "state": "Maharashtra",
     "district": "Mumbai City",
@@ -1916,7 +1916,7 @@
   {
     "name": "SMEC Automation Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Thiruvananthapuram",
     "state": "Kerala",
     "district": "Thiruvananthapuram",
@@ -1927,7 +1927,7 @@
   {
     "name": "SMEC Automation Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Thiruvananthapuram",
     "state": "Kerala",
     "district": "Thiruvananthapuram",
@@ -1938,7 +1938,7 @@
   {
     "name": "Sofcon India Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "New Delhi",
     "state": "Delhi",
     "district": "North West Delhi",
@@ -1949,7 +1949,7 @@
   {
     "name": "Soundlines Group",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Mumbai",
     "state": "Maharashtra",
     "district": "Mumbai City",
@@ -1960,7 +1960,7 @@
   {
     "name": "Soundlines Group",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "New Delhi",
     "state": "Delhi",
     "district": "South Delhi",
@@ -1971,7 +1971,7 @@
   {
     "name": "SynchroServe Global Solutions Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Hyderabad",
     "state": "Telangana",
     "district": "Hyderabad",
@@ -1982,7 +1982,7 @@
   {
     "name": "SynchroServe Global Solutions Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Hyderabad",
     "state": "Telangana",
     "district": "Hyderabad",
@@ -1993,7 +1993,7 @@
   {
     "name": "Synergy Relationship Management Services Private Limited",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Mumbai",
     "state": "Maharashtra",
     "district": "Mumbai City",
@@ -2004,7 +2004,7 @@
   {
     "name": "Tra-augment People Solutions Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Chennai",
     "state": "Tamil Nadu",
     "district": "Chennai",
@@ -2015,7 +2015,7 @@
   {
     "name": "Value Wings Enterprises Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bengaluru Urban",
@@ -2026,7 +2026,7 @@
   {
     "name": "Value Wings Enterprises Pvt. Ltd.",
     "domain": "language",
-    "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
+    "subtype": "IISC Centre (PMKK)",
     "city": "Chennai",
     "state": "Tamil Nadu",
     "district": "Chennai",
