@@ -210,6 +210,15 @@ h1 {
   white-space: nowrap;
 }
 
+.summary-gap {
+  margin-left: auto;
+  padding-left: 8px;
+  color: var(--muted);
+  font-size: 10px;
+  white-space: nowrap;
+  flex: none;
+}
+
 .hover-row--off {
   opacity: 0.4;
 }
