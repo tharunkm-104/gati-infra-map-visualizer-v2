@@ -424,9 +424,9 @@
     "city": "Chennai",
     "state": null,
     "district": "Chennai",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0704208,
+    "longitude": 80.2550616,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Lady Andal School",
@@ -803,7 +803,7 @@
     "coordinateStatus": "source"
   },
   {
-    "name": "International Migration Centre \u2013 Karnataka",
+    "name": "International Migration Centre – Karnataka",
     "domain": "language",
     "subtype": "General Skilling Infrastructure (PDOT/SIIC/IISC)",
     "city": "Bengaluru",
@@ -820,9 +820,9 @@
     "city": "Kolkata",
     "state": "West Bengal",
     "district": "North 24 Parganas",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 22.7011082,
+    "longitude": 88.4335082,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Learnet Institute of Skill, Kowdiar, Thiruvananthapuram",
@@ -864,9 +864,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bengaluru",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9628957,
+    "longitude": 77.57754,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "SIIC Hyderabad",
@@ -897,9 +897,9 @@
     "city": "Thiruvananthapuram",
     "state": "Kerala",
     "district": "Thiruvananthapuram",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 8.5241391,
+    "longitude": 76.9366376,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Acme India Microsys PvtLtd..",
@@ -1018,9 +1018,9 @@
     "city": "Chennai",
     "state": "Tamil Nadu",
     "district": "Chennai",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0843007,
+    "longitude": 80.2704622,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Asmacs Skill Development Limited",
@@ -1051,9 +1051,9 @@
     "city": "Kochi",
     "state": "Kerala",
     "district": "Ernakulam",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 9.9816358,
+    "longitude": 76.2998842,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "BSL Multiskills",
@@ -1106,9 +1106,9 @@
     "city": "Mumbai",
     "state": "Maharashtra",
     "district": "Mumbai Suburban",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 19.19109,
+    "longitude": 72.9726056,
+    "coordinateStatus": "source"
   },
   {
     "name": "Council of Education and Development Programmes Pvt Ltd",
@@ -1117,9 +1117,9 @@
     "city": "Mumbai",
     "state": "Maharashtra",
     "district": "Mumbai Suburban",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 19.19109,
+    "longitude": 72.9726056,
+    "coordinateStatus": "source"
   },
   {
     "name": "Dhanush Enggservices India Pvt. Ltd.",
@@ -1172,9 +1172,9 @@
     "city": "Chennai",
     "state": "Tamil Nadu",
     "district": "Chennai",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0704208,
+    "longitude": 80.2550616,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Don Bosco Tech Society",
@@ -1326,9 +1326,9 @@
     "city": "Kochi",
     "state": "Kerala",
     "district": "Ernakulam",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 10.5241176,
+    "longitude": 76.2120649,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Indianeers Media Pvt. Ltd..",
@@ -1337,9 +1337,9 @@
     "city": "Kochi",
     "state": "Kerala",
     "district": "Ernakulam",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 10.5241176,
+    "longitude": 76.2120649,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Indianeers Media Pvt. Ltd.",
@@ -1348,9 +1348,9 @@
     "city": "Thrissur",
     "state": "Kerala",
     "district": "Thrissur",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 10.5241176,
+    "longitude": 76.2120649,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Indianeers Media Pvt. Ltd..",
@@ -1359,9 +1359,9 @@
     "city": "Thrissur",
     "state": "Kerala",
     "district": "Thrissur",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 10.5241176,
+    "longitude": 76.2120649,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Indianeers Media Pvt. Ltd.",
@@ -1491,9 +1491,9 @@
     "city": "Hyderabad",
     "state": "Telangana",
     "district": "Hyderabad",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 17.431619,
+    "longitude": 78.4547248,
+    "coordinateStatus": "source"
   },
   {
     "name": "OISCA International, South India Chapter",
@@ -1535,9 +1535,9 @@
     "city": "New Delhi",
     "state": "Delhi",
     "district": "New Delhi",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 30.900965,
+    "longitude": 75.8572758,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Orane International Ltd.",
@@ -1546,9 +1546,9 @@
     "city": "New Delhi",
     "state": "Delhi",
     "district": "New Delhi",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 30.900965,
+    "longitude": 75.8572758,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Orion Edutech Pvt. Ltd.",
@@ -1568,9 +1568,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bengaluru Urban",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9628957,
+    "longitude": 77.57754,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Oscar Trust",
@@ -1590,9 +1590,9 @@
     "city": "Chennai",
     "state": "Tamil Nadu",
     "district": "Chennai",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0843007,
+    "longitude": 80.2704622,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Prayas JAC Society",
@@ -1623,9 +1623,9 @@
     "city": "Kolkata",
     "state": "West Bengal",
     "district": "Kolkata",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 22.7011082,
+    "longitude": 88.4335082,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Quivan Skill Empowerment Pvt. Ltd.",
@@ -1634,9 +1634,9 @@
     "city": "Kolkata",
     "state": "West Bengal",
     "district": "Kolkata",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 22.7011082,
+    "longitude": 88.4335082,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Rooman Technologies Pvt. Ltd.",
@@ -1645,9 +1645,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bengaluru Urban",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9983662,
+    "longitude": 77.5523806,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Rooman Technologies Pvt. Ltd.",
@@ -1656,9 +1656,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bengaluru Urban",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9983662,
+    "longitude": 77.5523806,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Rooman Technologies PvtLtd..",
@@ -1667,9 +1667,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bengaluru Urban",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9983662,
+    "longitude": 77.5523806,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Rooman Technologies Pvt. Ltd.",
@@ -1700,9 +1700,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bengaluru Urban",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9628957,
+    "longitude": 77.57754,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Rustomjee Academy for Global Careers Pvt. Ltd.",
@@ -1722,9 +1722,9 @@
     "city": "Mumbai",
     "state": "Maharashtra",
     "district": "Mumbai City",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9628957,
+    "longitude": 77.57754,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Simran Holidays Private Limited",
@@ -1744,9 +1744,9 @@
     "city": "Hyderabad",
     "state": "Telangana",
     "district": "Hyderabad",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 17.4357855,
+    "longitude": 78.3931008,
+    "coordinateStatus": "source"
   },
   {
     "name": "Skills and You Consultants (P) Limited",
@@ -1755,9 +1755,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bengaluru Urban",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9991385,
+    "longitude": 77.5819085,
+    "coordinateStatus": "source"
   },
   {
     "name": "Skills and You Consultants (P) Limited",
@@ -1766,9 +1766,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bengaluru Urban",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9991385,
+    "longitude": 77.5819085,
+    "coordinateStatus": "duplicate_collapsed"
   },
   {
     "name": "SkillSonics India Pvt. Ltd.",
@@ -1788,9 +1788,9 @@
     "city": "Mumbai",
     "state": "Maharashtra",
     "district": "Mumbai City",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 18.9582347,
+    "longitude": 72.8319514,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "SkillSonics India Pvt. Ltd.",
@@ -1810,9 +1810,9 @@
     "city": "Thiruvananthapuram",
     "state": "Kerala",
     "district": "Thiruvananthapuram",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 18.9582347,
+    "longitude": 72.8319514,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Smartskills Bits and Bytes Pvt. Ltd.",
@@ -1821,9 +1821,9 @@
     "city": "Thrissur",
     "state": "Kerala",
     "district": "Thrissur",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 10.5241176,
+    "longitude": 76.2120649,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "SMEC Automation Pvt. Ltd.",
@@ -1865,9 +1865,9 @@
     "city": "Kochi",
     "state": "Kerala",
     "district": "Ernakulam",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 18.9582347,
+    "longitude": 72.8319514,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "SMEC Automation Pvt. Ltd.",
@@ -1876,9 +1876,9 @@
     "city": "Kochi",
     "state": "Kerala",
     "district": "Ernakulam",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 18.9582347,
+    "longitude": 72.8319514,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "SMEC Automation Pvt. Ltd.",
@@ -1909,9 +1909,9 @@
     "city": "Mumbai",
     "state": "Maharashtra",
     "district": "Mumbai City",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 18.9582347,
+    "longitude": 72.8319514,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "SMEC Automation Pvt. Ltd.",
@@ -1920,9 +1920,9 @@
     "city": "Thiruvananthapuram",
     "state": "Kerala",
     "district": "Thiruvananthapuram",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 18.9582347,
+    "longitude": 72.8319514,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "SMEC Automation Pvt. Ltd.",
@@ -1931,9 +1931,9 @@
     "city": "Thiruvananthapuram",
     "state": "Kerala",
     "district": "Thiruvananthapuram",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 18.9582347,
+    "longitude": 72.8319514,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Sofcon India Pvt. Ltd.",
@@ -1975,9 +1975,9 @@
     "city": "Hyderabad",
     "state": "Telangana",
     "district": "Hyderabad",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 17.3943278,
+    "longitude": 78.4700661,
+    "coordinateStatus": "source"
   },
   {
     "name": "SynchroServe Global Solutions Pvt. Ltd.",
@@ -1986,9 +1986,9 @@
     "city": "Hyderabad",
     "state": "Telangana",
     "district": "Hyderabad",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 17.3943278,
+    "longitude": 78.4700661,
+    "coordinateStatus": "source"
   },
   {
     "name": "Synergy Relationship Management Services Private Limited",
@@ -3377,7 +3377,7 @@
     "coordinateStatus": "source"
   },
   {
-    "name": "HCG Central Ethics Committee - HCG \u2013 Bangalore Institute of Oncology",
+    "name": "HCG Central Ethics Committee - HCG – Bangalore Institute of Oncology",
     "domain": "health",
     "subtype": "NABH Accredited Health Facility",
     "city": "Bengaluru",
@@ -4774,7 +4774,7 @@
     "coordinateStatus": "source"
   },
   {
-    "name": "Rotary Bangalore \u2013 ttk Blood Bank",
+    "name": "Rotary Bangalore – ttk Blood Bank",
     "domain": "health",
     "subtype": "NABH Accredited Health Facility",
     "city": "Bengaluru",
@@ -5478,7 +5478,7 @@
     "coordinateStatus": "source"
   },
   {
-    "name": "St. Philomena\u2019s Hospital",
+    "name": "St. Philomena’s Hospital",
     "domain": "health",
     "subtype": "NABH Accredited Health Facility",
     "city": "Bengaluru",
@@ -9273,7 +9273,7 @@
     "coordinateStatus": "source"
   },
   {
-    "name": "St. Isabel\u2019s Hospital",
+    "name": "St. Isabel’s Hospital",
     "domain": "health",
     "subtype": "NABH Accredited Health Facility",
     "city": "Chennai",
@@ -11561,7 +11561,7 @@
     "coordinateStatus": "source"
   },
   {
-    "name": "Dr. Kiran\u2019s Eye Hospitals Private Limited",
+    "name": "Dr. Kiran’s Eye Hospitals Private Limited",
     "domain": "health",
     "subtype": "NABH Accredited Health Facility",
     "city": "Hyderabad",
@@ -11770,7 +11770,7 @@
     "coordinateStatus": "source"
   },
   {
-    "name": "Gleneagles Hospital \u2013 Lakdikapul (A unit of Gleneagles Healthcare India Private Limited)",
+    "name": "Gleneagles Hospital – Lakdikapul (A unit of Gleneagles Healthcare India Private Limited)",
     "domain": "health",
     "subtype": "NABH Accredited Health Facility",
     "city": "Hyderabad",
@@ -12771,7 +12771,7 @@
     "coordinateStatus": "source"
   },
   {
-    "name": "Princess Durru Shehvar Children\u2019s & General Hospital",
+    "name": "Princess Durru Shehvar Children’s & General Hospital",
     "domain": "health",
     "subtype": "NABH Accredited Health Facility",
     "city": "Hyderabad",
@@ -13761,7 +13761,7 @@
     "coordinateStatus": "source"
   },
   {
-    "name": "Yashoda Healthcare Services Limited, Malakpet\u00a0- (Earlier Certificate issued in the Name of Yashoda Super Speciality Hospitall)",
+    "name": "Yashoda Healthcare Services Limited, Malakpet - (Earlier Certificate issued in the Name of Yashoda Super Speciality Hospitall)",
     "domain": "health",
     "subtype": "NABH Accredited Health Facility",
     "city": "Hyderabad",
@@ -13959,7 +13959,7 @@
     "coordinateStatus": "source"
   },
   {
-    "name": "CIMAR The Women\u2019s Hospital (Unit of Edappal Hospitals Pvt. Ltd.)",
+    "name": "CIMAR The Women’s Hospital (Unit of Edappal Hospitals Pvt. Ltd.)",
     "domain": "health",
     "subtype": "NABH Accredited Health Facility",
     "city": "Kochi",
@@ -17270,7 +17270,7 @@
     "coordinateStatus": "source"
   },
   {
-    "name": "Dr. Shaji\u2019s MRI & Medical Research Centre Pvt. Ltd",
+    "name": "Dr. Shaji’s MRI & Medical Research Centre Pvt. Ltd",
     "domain": "health",
     "subtype": "NABH Accredited Health Facility",
     "city": "Kozhikode North + South",
@@ -19888,7 +19888,7 @@
     "coordinateStatus": "source"
   },
   {
-    "name": "Nishkala Healthcare Pvt. Ltd. (White Lotus International Hospital & Research Centre \u2013 Holding Company of Suasth Healthcare Foundation)",
+    "name": "Nishkala Healthcare Pvt. Ltd. (White Lotus International Hospital & Research Centre – Holding Company of Suasth Healthcare Foundation)",
     "domain": "health",
     "subtype": "NABH Accredited Health Facility",
     "city": "Mumbai",
@@ -28380,7 +28380,7 @@
     "coordinateStatus": "source"
   },
   {
-    "name": "Dr. Handa\u00e2\u20ac\u2122s Complete Family Dental Care",
+    "name": "Dr. Handaâ€™s Complete Family Dental Care",
     "domain": "health",
     "subtype": "NABH Accredited Health Facility",
     "city": "New Delhi",
@@ -38401,7 +38401,7 @@
     "coordinateStatus": "source"
   },
   {
-    "name": "Aarthi Scans & Labs \u2013 Kothrud",
+    "name": "Aarthi Scans & Labs – Kothrud",
     "domain": "health",
     "subtype": "NABH Accredited Health Facility",
     "city": "Pune",
@@ -40326,7 +40326,7 @@
     "coordinateStatus": "source"
   },
   {
-    "name": "M. T. E.'s Nyaymurti Madhavrao - Ranade Memorial Homoeopathic Hospital - (Earlier Certificate issued in the Name of M.T.E.Society\u2019s N.M.Ranade Memorial Homoeopathic Hospital  (Attached to D.S Homoeopathic Medical College))",
+    "name": "M. T. E.'s Nyaymurti Madhavrao - Ranade Memorial Homoeopathic Hospital - (Earlier Certificate issued in the Name of M.T.E.Society’s N.M.Ranade Memorial Homoeopathic Hospital  (Attached to D.S Homoeopathic Medical College))",
     "domain": "health",
     "subtype": "NABH Accredited Health Facility",
     "city": "Pune",
@@ -41404,7 +41404,7 @@
     "coordinateStatus": "source"
   },
   {
-    "name": "Sadhu Vaswani Mission\u2019s Medical Complex",
+    "name": "Sadhu Vaswani Mission’s Medical Complex",
     "domain": "health",
     "subtype": "NABH Accredited Health Facility",
     "city": "Pune",
@@ -44446,9 +44446,9 @@
     "city": "New Delhi",
     "state": "Delhi",
     "district": "New Delhi",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 28.6564,
+    "longitude": 77.1289,
+    "coordinateStatus": "researched_override"
   },
   {
     "name": "G.B. Pant Institute of Postgraduate Medical Education and Research, New Delhi",
@@ -44888,6 +44888,17 @@
     "district": "Bengaluru Urban",
     "latitude": 12.9833754,
     "longitude": 77.6040342,
+    "coordinateStatus": "source"
+  },
+  {
+    "name": "FAROOKH ACADEMY OF MEDICAL EDUCATION HOSPITAL AND RESEARCH INSTITUTE",
+    "domain": "health",
+    "subtype": "NMC Medical College",
+    "city": "Kozhikode North + South",
+    "state": "Karnataka",
+    "district": "Kozhikode",
+    "latitude": 15.3172775,
+    "longitude": 75.7138884,
     "coordinateStatus": "source"
   },
   {
@@ -45832,9 +45843,9 @@
     "city": "Kolkata",
     "state": "West Bengal",
     "district": "Kolkata",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 22.45349,
+    "longitude": 88.171406,
+    "coordinateStatus": "source"
   },
   {
     "name": "KPC Medical College, Jadavpur, Kolkata",
@@ -45920,9 +45931,9 @@
     "city": "Chandigarh",
     "state": "Chandigarh",
     "district": "Ut Chandigarh",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 30.7094598,
+    "longitude": 76.7812713,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Government Medical College And Hospital, Chandigarh, Government Medical College And Hospital, Sector- 32, Chandigarh, Chandigarh, Distt.- Chandigarh, Pin Code- 160032",
@@ -45931,9 +45942,9 @@
     "city": "Chandigarh",
     "state": "Chandigarh",
     "district": "Ut Chandigarh",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 30.7094598,
+    "longitude": 76.7812713,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "College Of Nursing Army Hospital Research And Referral , Army Hospital Research And Referral,Delhi Cantt - 110010, New Delhi , Distt.- South West Delhi, Pin Code- 110010 College Of Nursing Army Hospital Research And Referral , Army Hospital Research And Referral,Delhi Cantt - 110010, New Delhi , Distt.- South West Delhi, Pin Code- 110010 College Of Nursing Army Hospital Research And Referral , Army Hospital Research And Referral,Delhi Cantt - 110010, New Delhi , Distt.- South West Delhi, Pin Code- 110010",
@@ -45975,9 +45986,9 @@
     "city": "New Delhi",
     "state": "Delhi",
     "district": "South Delhi",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 28.5647191,
+    "longitude": 77.2003236,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "College Of Nursing,, Lady Hardinge Medical College And Associated Hospitals,, Vill.- , Tehsil- Chanakya Puri, Distt.- New Delhi, Pin Code- 110001",
@@ -45986,9 +45997,9 @@
     "city": "New Delhi",
     "state": "Delhi",
     "district": "New Delhi",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 28.6327426,
+    "longitude": 77.2195969,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "College Of Nursing,, St. Stephen's Hospital Tis Hazari, Delhi, Delhi, Distt.- Central Delhi, Pin Code- 110054",
@@ -45997,9 +46008,9 @@
     "city": "New Delhi",
     "state": "Delhi",
     "district": "Central Delhi",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 28.6903983,
+    "longitude": 77.2275394,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Dr Ram Manohar Lohia Hospital, College Of Nursing, College Of Nusing Dr.Rml Hospital, New Delhi, Distt.- Central Delhi, Pin Code- 110001",
@@ -46008,9 +46019,9 @@
     "city": "New Delhi",
     "state": "Delhi",
     "district": "Central Delhi",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 28.6327426,
+    "longitude": 77.2195969,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Florence Nightingale College Of Nursing, Guru Teg Bahadur Hospital, Dilshad Garden, Shahdara, New Delhi, Distt.- North East Delhi, Pin Code- 110095",
@@ -46019,9 +46030,9 @@
     "city": "New Delhi",
     "state": "Delhi",
     "district": "North East Delhi",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 28.6761864,
+    "longitude": 77.3159348,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Ginnidevi Action School Of Nursing, 4 Paschim Vihar , New Delhi, Distt.- West Delhi, Pin Code- 110063",
@@ -46041,9 +46052,9 @@
     "city": "New Delhi",
     "state": "Delhi",
     "district": "Shahdara",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 28.6761864,
+    "longitude": 77.3159348,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Institute Of Paramedical Sciences & Research, 192,Asola,Fatehpur Beri,Delhi, Delhi, Distt.- South Delhi, Pin Code- 110074",
@@ -46085,9 +46096,9 @@
     "city": "New Delhi",
     "state": "Delhi",
     "district": "North Delhi North Delhi",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 28.834898,
+    "longitude": 77.0898784,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Panna Dai College Of Nursing, Deen Dayal Upadhyay Hospital, Hari Nagar, New Delhi, Distt.- South West Delhi, Pin Code- 110064",
@@ -46162,9 +46173,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.8845097,
+    "longitude": 77.6035522,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "A V K College Of Nursing, No.8/9,27Th Cross,Opp Monotype Busstand,Banashanakri Iind Stage, Bangalore, Distt.- Bangalore, Pin Code- 560070",
@@ -46184,9 +46195,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.8219864,
+    "longitude": 77.5103446,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Adarsha College Of Nursing, #42, Kengari Outer Ring Road, Jnananganga Nagar, Mariyappanpalya, Bangalore, Distt.- Bangalore, Pin Code- 560056 Adarsha College Of Nursing, #42, Kengari Outer Ring Road, Jnananganga Nagar, Mariyappanpalya, Bangalore, Distt.- Bangalore, Pin Code- 560056",
@@ -46195,9 +46206,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9514678,
+    "longitude": 77.492145,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Aditya College Of Nursing, No-12, Kogilu Main Road, Behind Shree Annapoorneshwari Temple, Maruthi Nagar, Yelahanka, Bengaluru, Bengaluru, Distt.- Bangalore, Pin Code- 560064",
@@ -46206,9 +46217,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.10197,
+    "longitude": 77.5863591,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Adventist College Of Nursing, Lowry Memorial College Campus,Opp.K R Puram Railway Station,, Dooravaninagar, Distt.- Bangalore, Pin Code- 560016",
@@ -46228,9 +46239,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9514678,
+    "longitude": 77.492145,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Akash Nursing College, Ward No.22, Prasannahalli Main Road, Devanahalli,, Bangalore, Distt.- Bangalore Rural, Pin Code- 562110",
@@ -46250,9 +46261,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.1038753,
+    "longitude": 77.4988753,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Anupama School Of Nurisng, West Of Chord Road, 2Nd Stage, Mahalakshmipuram, Bangalore, Distt.- Bangalore, Pin Code- 560086",
@@ -46272,9 +46283,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9866413,
+    "longitude": 77.4904285,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Aster College Of Nursing , No.43/2, New Airport Road, Nh-7, Sahakarnagar, Vill.- , Tehsil- Bangalore North, Distt.- Bangalore, Pin Code- 560092",
@@ -46294,9 +46305,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.1195105,
+    "longitude": 77.678614,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Avishkar College Of Nursing, #129,Agrahara Layout,Kogilu Villege ,Yelahanka,Bangalore-64, Bangalore Urban, Distt.- Bangalore, Pin Code- 560064",
@@ -46305,9 +46316,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.10197,
+    "longitude": 77.5863591,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "B G S Global Institute Of Nursing Sciences, No.26, Bgs Health & Education City, Uttarahalli Road, Kengeri, Bangalore, Vill.- , Tehsil- Bangalore South, Distt.- Bangalore, Pin Code- 560060",
@@ -46316,9 +46327,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9104743,
+    "longitude": 77.4841775,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "B M S Hospital Nursing College, Sy. No. 618, Sri Mallikarjuna Swamy Temple Street, Nr Colony, Bangalore, Bangalore, Distt.- Bangalore, Pin Code- 560019 B M S Hospital Nursing College, Sy. No. 618, Sri Mallikarjuna Swamy Temple Street, Nr Colony, Bangalore, Bangalore, Distt.- Bangalore, Pin Code- 560019",
@@ -46338,9 +46349,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.8124199,
+    "longitude": 77.6940315,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Banaswadi College Of Nursing, 33/1 Byrathi Extn.Opp.Bible College,Hennor,Bagalur,Kottanoor Post, Bangalore, Distt.- Bangalore, Pin Code- 560077",
@@ -46349,9 +46360,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0639539,
+    "longitude": 77.6503609,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Bangalore Baptist Hospital, Hebbal, Bellary Road, Hebbal, Vill.- Bangalore, Tehsil- Bangalore North, Distt.- Bangalore, Pin Code- 560024",
@@ -46371,9 +46382,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0206268,
+    "longitude": 77.6478852,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Bangalore College Of Nursing, Heelalige Village, Chandapura Post, Anekal Taluk, Bengaluru, Bengaluru, Distt.- Bangalore, Pin Code- 560099",
@@ -46382,9 +46393,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.8124199,
+    "longitude": 77.6940315,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Bangalore Institute Of Nursing, 33/1 Byrathi Extension Opp. To Bible College , Bangalore, Distt.- Bangalore, Pin Code- 560077",
@@ -46393,9 +46404,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0639539,
+    "longitude": 77.6503609,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Bangalore Little Flower College Of Nursing, No. 32, Kadusonnapanahalli, Hennur Bagalur Road, Kannur Po, Bangalore, Bangalore, Distt.- Bangalore, Pin Code- 560077",
@@ -46404,9 +46415,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0639539,
+    "longitude": 77.6503609,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Bangalore Social And Education College Of Nursing,, #29, 1St Cross, Magadi Road, Sunkada Katte, Vishwaneedam Post, Bengaluru, Bengaluru, Distt.- Bangalore, Pin Code- 560091",
@@ -46415,9 +46426,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9866413,
+    "longitude": 77.4904285,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Bethel Medical Institute Of Nursing Sciences, Bethel Medical Mission Group Bethel Medical Mission Campus, Bethel Street Preethi Nagar Near Laggere Brideg, Bangalore, Distt.- Bangalore, Pin Code- 560058",
@@ -46426,9 +46437,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0280874,
+    "longitude": 77.5120799,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Bharathi College And School Of Nursing, St. Mary's Church Campus, Tumkur Highway, Arishinakunte., Bangalore, Distt.- Bangalore Rural, Pin Code- 562123",
@@ -46437,9 +46448,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore Rural",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.1137712,
+    "longitude": 77.355413,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Bhuvan College Of Nursing, Venkatala,Yelahanka, Bangalore, Distt.- Bangalore, Pin Code- 560064",
@@ -46448,9 +46459,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.10197,
+    "longitude": 77.5863591,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Brite College Of Nursing, Sy No 69,Bwssb Colony,Pipeline Road,Chikkagollarahatti,Magadi Main Road,Vishwaneedam Post, Bangalore, Distt.- Bangalore, Pin Code- 0",
@@ -46481,9 +46492,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9514678,
+    "longitude": 77.492145,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Chaitanya School Of Nursing,, Janapriya Township, Kadabagere Post, Near Byandhalli , Magadi Main Road Bangalore, Distt.- Bangalore, Pin Code- 562130",
@@ -46503,9 +46514,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.8892684,
+    "longitude": 77.63991,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Chinmaya Institute Of Nursing, Cmh Compound Cmh Road Indiranagar Bangalore, Vill.- , Tehsil- Bangalore East, Distt.- Bangalore, Pin Code- 560038",
@@ -46525,9 +46536,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0206268,
+    "longitude": 77.6478852,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "College Of Nursing Sds Trc & Rgicd , 2Nd Floor, Sds Trc & Rgicd, 1St Main, Someshwara Nagar, Drc Post, , Bangalore, Distt.- Bangalore, Pin Code- 560029",
@@ -46547,9 +46558,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9514678,
+    "longitude": 77.492145,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Cura College Of Nursing, 16/1A, 12Th Cross, Kanaka Nagar, R T Nagar Post, Hebbal, Bangalore-560032, Bengaluru, Distt.- Bangalore, Pin Code- 560032",
@@ -46558,9 +46569,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0297992,
+    "longitude": 77.6047037,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "D.M.J. Institute Of Nursing Science, Yelachanahalli, Near Metro Station, Off Kanakapura Road, Bengaluru 560111, Bangalore, Distt.- Bangalore, Pin Code- 560111",
@@ -46591,9 +46602,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.1038753,
+    "longitude": 77.4988753,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Dr Syamala Reddy College Of Nursing, 111/1, Sgr College Main Road, Munnekolala, Marathahalli, Bangalore, Bangalore, Distt.- Bangalore, Pin Code- 560037",
@@ -46635,9 +46646,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0639539,
+    "longitude": 77.6503609,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "East Point College Of Nursing, Jnana Prabha Campus # 147 Bidarahalli Virgonagar Post, Bangalore, Distt.- Bangalore, Pin Code- 560049",
@@ -46646,9 +46657,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0222936,
+    "longitude": 77.7132065,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "East West College Of Nursing,, 1#63, Bel Layout, Off Magadi Road, Vishwaneedam Post , Vill.- , Tehsil- Bangalore North, Distt.- Bangalore, Pin Code- 560010",
@@ -46679,9 +46690,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9866413,
+    "longitude": 77.4904285,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Ess Vee College Of Nursing And Universal School Of Nursing , #240/1 Sri Manjunath Opposite Dhobighat Thippenahalli Ward No 40 Doddabidarakallu Yeshwanthapura Hobli Bangalore , Bangalore , Distt.- Bangalore, Pin Code- 560073",
@@ -46690,9 +46701,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.049621,
+    "longitude": 77.4941462,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Faith Institute Of Nursing Sciences,, Ramachandrapura, Jalahalli P O,, Bangalore, Distt.- Bangalore, Pin Code- 560089",
@@ -46712,9 +46723,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.1195105,
+    "longitude": 77.678614,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Federal College Of Nursing,, Kariyammana Agrahara Near Outer Ring Road Opp.Intel, Bellandur Post Bangalore , Bangalore, Distt.- Bangalore, Pin Code- 560103",
@@ -46745,9 +46756,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9514678,
+    "longitude": 77.492145,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "G R R College Of Nursing, No 18, Roopa Mansion, 4Th Phase, 10Th Main, Thigalarapalya Main Road, Peenya Second Stage, Bengaluru, Distt.- Bangalore, Pin Code- 560058",
@@ -46756,9 +46767,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0280874,
+    "longitude": 77.5120799,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "G R V College Of Nursing, 21/3, Mnr Marg, Arasanahalli, Ivc Road Devanahalli Taluk, Vill.- , Tehsil- Bangalore North, Distt.- Bangalore, Pin Code- 562110",
@@ -46789,9 +46800,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9866413,
+    "longitude": 77.4904285,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Global College Of Nursing, 'Gat' Campus, Ideal Homes Township, Bangarappanagar, Rajarajeshwarinagar, Bangalore, Distt.- Bangalore, Pin Code- 560098",
@@ -46811,9 +46822,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0639539,
+    "longitude": 77.6503609,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Goldfinch College Of Nursing, Sy No. 63, Kadamba Layout, Malathahalli , Bangalore, Distt.- Bangalore, Pin Code- 560056",
@@ -46822,9 +46833,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9514678,
+    "longitude": 77.492145,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Goutham College Of Nursing, 1456, Shankar Math Road, 14Th Main Rood,, Bangalore, Distt.- Bangalore, Pin Code- 560010 Goutham College Of Nursing, 1456, Shankar Math Road, 14Th Main Rood,, Bangalore, Distt.- Bangalore, Pin Code- 560010",
@@ -46833,9 +46844,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9849815,
+    "longitude": 77.553344,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Gouthami College Of Nursing, #1457, Shankar Mutt Road, Mahalakshmipuram, Bangalore, Distt.- Bangalore, Pin Code- 566001",
@@ -46855,9 +46866,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.8124199,
+    "longitude": 77.6940315,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "H K School And College Of Nursing, Jayashankar Building, Mes Ring Road, Jalahalli, Vill.- , Tehsil- Bangalore North, Distt.- Bangalore, Pin Code- 560013",
@@ -46866,9 +46877,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0503355,
+    "longitude": 77.5529007,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "H M R School Of Nursing, #48/2, 4Th Cross, Behind Ashrya Hospital, Magadi Main Road, Vishvaneedam Post, Sunkadakatte, Bangalore, Distt.- Bangalore, Pin Code- 560091",
@@ -46877,9 +46888,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9899522,
+    "longitude": 77.5023973,
+    "coordinateStatus": "researched_override"
   },
   {
     "name": "Harshika School Of Nursing, Horamavuagara, Hennur Bengaluru, Bengaluru, Distt.- Bangalore, Pin Code- 560043",
@@ -46888,9 +46899,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0206268,
+    "longitude": 77.6478852,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Heartland College Of Nursing, #1357, 15Th Cross, R K Hegde Nagar, Dr. S Nagar Post, Vill.- , Tehsil- Bangalore South, Distt.- Bangalore, Pin Code- 560083",
@@ -46899,9 +46910,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0716042,
+    "longitude": 77.6281694,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Hill Side College Of Nursing, No.9,Raghuvanahalli,Gubbalala Cross,Kanakapuraa Main Road,Bangalore , Bangalore, Distt.- Bangalore, Pin Code- 560081",
@@ -46921,9 +46932,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.8219864,
+    "longitude": 77.5103446,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Holy Mother Institute Of Nursing, Kariyammana Agrahara Near Outer Ring Road ,Opp.Intel Bellandur Post Bangalore, Bangalore, Distt.- Bangalore, Pin Code- 560103",
@@ -46943,9 +46954,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0206268,
+    "longitude": 77.6478852,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Indira Gandhi College Of Nursing, #23 Chokkanahalli Yelahanka Hobli , Bangalore, Distt.- Bangalore, Pin Code- 560064",
@@ -46954,9 +46965,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.10197,
+    "longitude": 77.5863591,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Indoglobe College Of Nursing,, Survey No. 25/6, Huralichikkanahalli, Chikkabanavara Post, Hesaragatta Main Road, Vill.- , Tehsil- Bangalore North, Distt.- Bangalore, Pin Code- 560090",
@@ -46965,9 +46976,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.1038753,
+    "longitude": 77.4988753,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "J E S Mother Teresa College Of Nursing, Mes Ring Road, Jalahalli, Bangalore , Bangalore , Distt.- Bangalore, Pin Code- 560013",
@@ -46976,9 +46987,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0503355,
+    "longitude": 77.5529007,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Jahan Institute Of Nursing Sciences, No 465/1 Marsur Post Anekal Taluk Bangalore 562106, Bangalore, Distt.- Bangalore, Pin Code- 562106",
@@ -46987,9 +46998,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.7226855,
+    "longitude": 77.6765184,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Joshi School Of Nursing, No 662/1027, Ullal Main Road, Muneshwara Nagar Mallathahalli, Bangalore , Distt.- Bangalore, Pin Code- 560056",
@@ -46998,9 +47009,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9514678,
+    "longitude": 77.492145,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Jubilee Mission College Of Nursing , #81, 3Rd Cross, Fortis Hospital Nagarabhavi,, Vill.- , Tehsil- Bangalore South, Distt.- Bangalore, Pin Code- 560072",
@@ -47009,9 +47020,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9719249,
+    "longitude": 77.512809,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "K N N College Of Nursing, 23/B, Khb Satellite Town, Yelahanka New Town, Bangalore, Distt.- Bangalore, Pin Code- 560064",
@@ -47020,9 +47031,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.10197,
+    "longitude": 77.5863591,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "K R College Of Nursing, Sy. No. 30/1 30/2, Opp. Chamundeshwari Temple, Ravugodlu, Uttarahalli Hobli, Kanakapura Main Road, Bengaluru , Distt.- Bangalore, Pin Code- 560082",
@@ -47031,9 +47042,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.8219864,
+    "longitude": 77.5103446,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "K T G College Of Nursing, Heggannahalli Cross, Sunkadakatte Vishwaneedam P O, Bangalore, Distt.- Bangalore, Pin Code- 560091",
@@ -47042,9 +47053,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9866413,
+    "longitude": 77.4904285,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Kamala College Of Nursing,, Rajiv Gandhi College Campus,Cholanagar,R.T Nagar Post,, Bangalore, Distt.- Bangalore, Pin Code- 560032",
@@ -47053,9 +47064,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0297992,
+    "longitude": 77.6047037,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Kamala- Krishna Royale Nursing College, #450, O.T.C Road, Cottonpet, Bengaluru, Distt.- Bangalore, Pin Code- 560053",
@@ -47075,9 +47086,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.10197,
+    "longitude": 77.5863591,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Kaveri School Of Nursing,, Aps School Premesis Hosur Road Anekal , Bangalore , Distt.- Bangalore, Pin Code- 562106",
@@ -47086,9 +47097,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.7226855,
+    "longitude": 77.6765184,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Kempegowda College Of Nursing, K R Road V V Puram Bangalore , Bangalore, Distt.- Bangalore, Pin Code- 560004",
@@ -47097,9 +47108,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9437506,
+    "longitude": 77.5737598,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Kidwai Memorial Institute Of Oncology College Of Nursing, Dr. M. H. Marigowda Road, Bangalore, Distt.- Bangalore, Pin Code- 560029 Kidwai Memorial Institute Of Oncology College Of Nursing, Dr. M. H. Marigowda Road, Bangalore, Distt.- Bangalore, Pin Code- 560029",
@@ -47108,9 +47119,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9342565,
+    "longitude": 77.6043993,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Koshys College Of Nursing, 31/1,Hennur,Bagalur Road,Kannur Post, Bangalore, Distt.- Bangalore, Pin Code- 562149",
@@ -47119,9 +47130,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.1195105,
+    "longitude": 77.678614,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Kreda School Of Nursing, No.- 61 , Janapriya Township, Mgadi Main Road, Kadabagere Post, Bengaluru, Distt.- Bangalore, Pin Code- 562130",
@@ -47130,9 +47141,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9459719,
+    "longitude": 77.3898602,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Kripa Institute Of Nursing Science, No 98, Near Sub Post Office,Kodigehalli Village, Kenchenapura, Bangalore, Bangalore, Distt.- Bangalore, Pin Code- 560091",
@@ -47141,9 +47152,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9866413,
+    "longitude": 77.4904285,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Krupanidhi College Of Nursing, No.12/1,Chikkabellandur Village Carmelrampost, Varthur Hobli, Bangalore, Distt.- Bangalore, Pin Code- 560035",
@@ -47152,9 +47163,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9048022,
+    "longitude": 77.6821069,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Laasya College Of Nursing And Laasya School Of Nursing, #125/1, Hill Rock Road, Brahmadevagutte Ramchandrappa Circle Kodigehalli, Vill.- , Tehsil- Bangalore South, Distt.- Bangalore, Pin Code- 560091",
@@ -47163,9 +47174,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9866413,
+    "longitude": 77.4904285,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Life Line School Of Nursing, # 1127, 15Th Cross, Anjaneya Temple Street, R.K Hegde Nagar, Dr. S K Nagar Post, Bangalore, Vill.- , Tehsil- Bangalore South, Distt.- Bangalore, Pin Code- 560077",
@@ -47174,9 +47185,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0716042,
+    "longitude": 77.6281694,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Lima Institute Of Nursing Sciences And Lima School Of Nursing, Gg Farm, Nh4, Tumkar Road, Dasanapura, Bangalore, Distt.- Bangalore, Pin Code- 562123",
@@ -47196,9 +47207,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9514678,
+    "longitude": 77.492145,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Lorven School Of Nursing, No 84/1 Chandapura Anekal Road, Bangalore, Distt.- Bangalore, Pin Code- 560099",
@@ -47207,9 +47218,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.8124199,
+    "longitude": 77.6940315,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "M A J School Of Nursing, No 41/3,Vinayak Nagar,Near Chikabanavar Railway Station,Hessargatta Road,Chikabanavar, Bangalore, Distt.- Bangalore, Pin Code- 560090",
@@ -47218,9 +47229,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.1038753,
+    "longitude": 77.4988753,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "M S College Of Nursing, No 149/96 , Bommenahalli , Mandur Post, Bangalore 49, Vill.- Bommenahalli, Tehsil- Bangalore East, Distt.- Bangalore, Pin Code- 560049",
@@ -47229,9 +47240,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0222936,
+    "longitude": 77.7132065,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "M S Ramaiah Inst. Of Nsg Edu. & Res., M.S.Ramaiah Nagara, Msrit Post, Bangalore, Distt.- Bangalore, Pin Code- 560054",
@@ -47251,9 +47262,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.10197,
+    "longitude": 77.5863591,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Madhu Schoolof Nursing,, #1954/55, 8Th Main 'E' Block, Ii Stage, Rajajinagara , Bengaluru, Distt.- Bangalore, Pin Code- 560010",
@@ -47262,9 +47273,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9849815,
+    "longitude": 77.553344,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Mahalakshmi School Of Nursing, Mahalakshmi School Of Nursing #375 1St Main Road Lakshmimidevi Nagar Legere, Bangalore, Distt.- Bangalore, Pin Code- 560058",
@@ -47273,9 +47284,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0280874,
+    "longitude": 77.5120799,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Mahatma Gandhi Professional College Of Nursing, 41/P2, Kanmanike, Kengeri, Mysore Road, Bangalore, Distt.- Bangalore, Pin Code- 560074",
@@ -47284,9 +47295,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.8823821,
+    "longitude": 77.4418115,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Mallige College Of Nursing, #71, Silvepura, Chikkabanavara Post, Bangalore, Distt.- Bangalore, Pin Code- 560090",
@@ -47306,9 +47317,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.1038753,
+    "longitude": 77.4988753,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Manjushree College Of Nursing, No26, 3Rd Main Road, Opp.Dr.Amc, Kavalbyrasandara, Rt Nagar , Bangalore, Distt.- Bangalore, Pin Code- 560032",
@@ -47317,9 +47328,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0297992,
+    "longitude": 77.6047037,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Maria School Of Nursing,, No 29/57, Chimney Hill, Pipe Line Road, Chikkabanavara Post, Bengaluru, Distt.- Bangalore, Pin Code- 560090",
@@ -47328,9 +47339,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.1038753,
+    "longitude": 77.4988753,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Mary Matha School Of Nursing, 69/70, 4Th Main Road, Pampa Ext, Kempapura, Vill.- , Tehsil- Bangalore North, Distt.- Bangalore, Pin Code- 560024",
@@ -47339,9 +47350,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0493782,
+    "longitude": 77.5991921,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Matru College Of Nursing, No.4, Srigandhada Kaval, P.W.D Deviation Road, Hanumathanagar, Near Sunkadakatte, Bangalore , Distt.- Bangalore, Pin Code- 560091",
@@ -47361,9 +47372,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9104743,
+    "longitude": 77.4841775,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Miranda College Of Nursing, Ca-29,5Th Phase,Khb Colony,Yelahanka New Town, , Bangalore , Distt.- Bangalore, Pin Code- 560064 Miranda College Of Nursing, Ca-29,5Th Phase,Khb Colony,Yelahanka New Town, , Bangalore , Distt.- Bangalore, Pin Code- 560064",
@@ -47383,9 +47394,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0280874,
+    "longitude": 77.5120799,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Mother Theresa School Of Nursing, 94/1, Arasana Kunte, Danojipalya, Tumkur Road, Bangalore, Distt.- Bangalore Rural, Pin Code- 562123",
@@ -47449,9 +47460,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.8124199,
+    "longitude": 77.6940315,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "National College Of Nursing, Yeshwanthapura Hobli, Hegganahalli Cross, Sunkadakatte Vishwaneedam Post Magadi Road, Bangalore, Distt.- Bangalore, Pin Code- 560091 National College Of Nursing, Yeshwanthapura Hobli, Hegganahalli Cross, Sunkadakatte Vishwaneedam Post Magadi Road, Bangalore, Distt.- Bangalore, Pin Code- 560091",
@@ -47460,9 +47471,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9866413,
+    "longitude": 77.4904285,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "National Instt. Of Mental Health & Neuro Sciences, N I M H A N S, Vill.- Tehsil- Bangalore South, Distt.- Bangalore, Pin Code- 560029",
@@ -47471,9 +47482,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9342565,
+    "longitude": 77.6043993,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Navaneetham College Of Nursing, #132/1, 5Th Cross, P&T Layout, Horamavu, Horamavu, Distt.- Bangalore, Pin Code- 560043",
@@ -47493,9 +47504,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0639539,
+    "longitude": 77.6503609,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "New Royal College Of Nursing, Jnana Prabha Campus, Bidarahalli Virgo Nagar Post, Bangalore, Distt.- Bangalore, Pin Code- 560049",
@@ -47504,9 +47515,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0222936,
+    "longitude": 77.7132065,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "New Sri Shantini College Of Nursing, Sy No:18-318/319, Kuduregere Colony, Dasanapura Hobli, Alur Post, Bangalore, Distt.- Bangalore, Pin Code- 562162",
@@ -47515,9 +47526,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0623299,
+    "longitude": 77.4587239,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Nightingale College Of Nursing, Guruvanna Devara Mutt, Near Binnyston Garden,Magadi Road, Bangalore, Distt.- Bangalore, Pin Code- 560023 Nightingale College Of Nursing, Guruvanna Devara Mutt, Near Binnyston Garden,Magadi Road, Bangalore, Distt.- Bangalore, Pin Code- 560023",
@@ -47548,9 +47559,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9849815,
+    "longitude": 77.553344,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Oxford College Of Nursing Sciences, Bommanahalli, Hosur Road, Bangalore, Distt.- Bangalore, Pin Code- 560068",
@@ -47559,9 +47570,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.8892684,
+    "longitude": 77.63991,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Oxford School Of Nursing, Bettahalsoor Cross International Airport Road , Bangalore, Distt.- Bangalore, Pin Code- 562157",
@@ -47581,9 +47592,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.8498481,
+    "longitude": 77.6544856,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Padmashree Institute Of Nursing, #146, Padmashree Campus, Kommaghatta, Sulikere , Kengeri Bangalore, Bangalore, Distt.- Bangalore, Pin Code- 560060",
@@ -47592,9 +47603,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9104743,
+    "longitude": 77.4841775,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Padmashree School Of Nursing, #149 Padmashree Campus, Kommaghatta Sulikere Kengeri Bangalore, Bangalore, Distt.- Bangalore, Pin Code- 560060",
@@ -47603,9 +47614,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9104743,
+    "longitude": 77.4841775,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Panasia School Of Nursing, No 34, Narasimha Raju Layout, Near Laggere Bridge, Laggere, Bangalore 560058, Bangalore, Distt.- Bangalore, Pin Code- 560058",
@@ -47614,9 +47625,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0280874,
+    "longitude": 77.5120799,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Patel School Of Nursing,, #4 & 5, Lakshmisankeerna, Mariyappana Palya, Ring Road, Bangalore, Distt.- Bangalore, Pin Code- 562056",
@@ -47636,9 +47647,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9719249,
+    "longitude": 77.512809,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Pms School And College Of Nursing, No.1362/63/2, Maruthi Nagar, Kogilu, Yelahanka, Bangalore, Distt.- Bangalore, Pin Code- 560064",
@@ -47658,9 +47669,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0639539,
+    "longitude": 77.6503609,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Prajwal College Of Nursing, No: 73/A, Balaji Layout, Byadarahalli, Magadi Road,, Bangalore, Distt.- Bangalore, Pin Code- 560091 Prajwal College Of Nursing, No: 73/A, Balaji Layout, Byadarahalli, Magadi Road,, Bangalore, Distt.- Bangalore, Pin Code- 560091",
@@ -47669,9 +47680,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9866413,
+    "longitude": 77.4904285,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Presidency College Of Nursing, No.1, Aishwarya Comfort, Hanumanthanagr, Bileshivale,Doddagubbi (P.O), Bangalore. , Bangalore, Distt.- Bangalore, Pin Code- 560077",
@@ -47680,9 +47691,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0639539,
+    "longitude": 77.6503609,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Quality Healthcare College Of Nursing, #4/5, P.P.Layout, Subramanyapura Post, Uttarahalli- Kengeri Main Road, , Bangalore, Distt.- Bangalore, Pin Code- 560061",
@@ -47691,9 +47702,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9037254,
+    "longitude": 77.5376389,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "R R College Of Nursing, No.40, R R Layout, Chikkabanavara, , Bangalore Distt.- Bangalore, Pin Code- 560090",
@@ -47702,9 +47713,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.1038753,
+    "longitude": 77.4988753,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "R T Nagar School Of Nursing, Ca Site. No:14. Hmt Layout,Rt Nagar, Bangalore, Distt.- Bangalore, Pin Code- 560032",
@@ -47713,9 +47724,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0297992,
+    "longitude": 77.6047037,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Rajarajeswari College Of Nursing, Kambipura,Mysore Road,Bangalore, Bangalore, Distt.- Bangalore, Pin Code- 560074",
@@ -47724,9 +47735,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.8823821,
+    "longitude": 77.4418115,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Rajiv Gandhi College Of Nursing, Iit Campus, Opp. Meenakshi Temple, Bannerghatta Road, Bangalore, Distt.- Bangalore, Pin Code- 560095",
@@ -47746,9 +47757,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0280874,
+    "longitude": 77.5120799,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Raman School Of Nursing, No. 133/3 Devanna Palya, Dasanapura, Hobli, Nh04, Bangalore - 562162, Bangalore, Distt.- Bangalore, Pin Code- 562162",
@@ -47757,9 +47768,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0623299,
+    "longitude": 77.4587239,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Ranebennur College Of Nursing, No:22, Chokkanahalli,Hegdenagar Main Road, Jakkur Post, Yelahanka, Hobli, , Bangalore, Distt.- Bangalore, Pin Code- 560064",
@@ -47768,9 +47779,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.10197,
+    "longitude": 77.5863591,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Ravindranath Tagore School Of Nursing, Virgo Nagar Post,Medhahalli,, Bangalore, Distt.- Bangalore, Pin Code- 560049",
@@ -47779,9 +47790,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0222936,
+    "longitude": 77.7132065,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Rl Abhishekrao College Of Nursing, No 160/1A Chelikere Main Road Chelikere Kalyan Nagar , Bangalore, Distt.- Bangalore, Pin Code- 560043",
@@ -47790,9 +47801,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0206268,
+    "longitude": 77.6478852,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Ruman School Of Nursing, #63, Chokkanahalli, Hegdenagar Main Road, Yellahanka, Hobli, Bengaluru,, Vill.- Chokkanahalli, Tehsil- Bangalore North, Distt.- Bangalore, Pin Code- 560064",
@@ -47801,9 +47812,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.10197,
+    "longitude": 77.5863591,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Rv College Of Nursing , No.Ca2/83-3, Ix Main, 4Th Block Jayanagar Bengaluru-560011, Bengaluru, Distt.- Bangalore, Pin Code- 560011",
@@ -47823,9 +47834,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9104743,
+    "longitude": 77.4841775,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "S J E S College Of Nursing, Sjes Campus, Medahalli Virgo Nagar Post K R Puram, Bangalore, Distt.- Bangalore, Pin Code- 560049",
@@ -47834,9 +47845,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0222936,
+    "longitude": 77.7132065,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "S.V.N. College Of Nursing , #3542, Maruthi Extension, Gayathrinagar, Bengaluru-560021., Bengaluru, Distt.- Bangalore, Pin Code- 560021",
@@ -47856,9 +47867,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9719249,
+    "longitude": 77.512809,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Santosh Institute Of Nursing And Rsearch, No 6/1 Promnade Road,Bangalore-560005, Bangalore, Distt.- Bangalore, Pin Code- 560005",
@@ -47878,9 +47889,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.1038753,
+    "longitude": 77.4988753,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Sarathi School Of Nursing, O.15&16, Chikkasandra, Yashwanthpura Hobli,, Vill.- Chikkasandra, Tehsil- Bangalore North, Distt.- Bangalore, Pin Code- 560090",
@@ -47922,9 +47933,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0639539,
+    "longitude": 77.6503609,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Jahnavi School of Nursing and Seshaiah College Of Nursing, No 13/1, Ambha Bhavani Temple Road, Vill.- Doddabettahalli , Tehsil- Bangalore North, Distt.- Bangalore, Pin Code- 560097",
@@ -47944,9 +47955,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9866413,
+    "longitude": 77.4904285,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Shree Meru School Of Nursing, #96,Bommenahalli Village, Bidarahalli Hobli, Mandur Post, Bengaluru East Taluk, Bengaluru-560049, Bengaluru, Distt.- Bangalore, Pin Code- 560049",
@@ -47955,9 +47966,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0222936,
+    "longitude": 77.7132065,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Shri Manjunatha College Of Nursing And Manjunatha School Of Nursing Sciences , No.22, Chokkanahalli, Hegde Nagar Main Road, Jakkur Post, Yelahanka Hobli, Bangalore-560064, Bangalore, Distt.- Bangalore, Pin Code- 560064",
@@ -47977,9 +47988,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0692593,
+    "longitude": 77.7982428,
+    "coordinateStatus": "source"
   },
   {
     "name": "Shrinidhi College Of Nursing, 93/2, Hommadevanahalli, Begur Hobali, Vill.- Hommadevanahalli Begur Hobli, Tehsil- Bangalore South, Distt.- Bangalore, Pin Code- 560083",
@@ -48010,9 +48021,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.1038753,
+    "longitude": 77.4988753,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Sneha College & School Of Nursing, #8, Jnanabharathi Main Road, Nagarabhavi Circle, Bengaluru-560072, Bengaluru, Distt.- Bangalore, Pin Code- 560072",
@@ -48021,9 +48032,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9719249,
+    "longitude": 77.512809,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Sofia College Of Nursing, #63 Chokkanahalli Hegdenagar Yellahanka Hobli Main Road , Bangalore , Distt.- Bangalore, Pin Code- 560064",
@@ -48032,9 +48043,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.10197,
+    "longitude": 77.5863591,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Southern College Of Nursing, No.15&16, Vinayaka Nagar, Near Chikkabanavara Railway Station, Chikkabanavra, Bangalore - 560090, Bangalore, Distt.- Bangalore, Pin Code- 560090",
@@ -48043,9 +48054,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.1038753,
+    "longitude": 77.4988753,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Sowrabha Institute Of Nursiing Sciences, No 92, Balaji Nagar, Herohalli Village, Near To Last Bus Stop Of Bel Layout, Yeshwantpur Hobli, Vill.- , Tehsil- Bangalore North, Distt.- Bangalore, Pin Code- 560091",
@@ -48054,9 +48065,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9866413,
+    "longitude": 77.4904285,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Sparsh College Of Nursing, #8, Ideal Homes, Hbcs Layout, Rajarajeshwari Nagar, Bangalore-560098, Rajarajeshwarinagar, Distt.- Bangalore, Pin Code- 560098",
@@ -48076,9 +48087,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.7226855,
+    "longitude": 77.6765184,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Sree Venkateshwara School Of Nursing, 80 Ft Road, Near Bangalore University, , Distt.- Bangalore, Pin Code- 0",
@@ -48098,9 +48109,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9397836,
+    "longitude": 77.553344,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Sri Basavaraja Swamy College Of Nursing,, Ist Cross Lavakushanagar,Lg Ramanna Extension Laggere, Bangalore, Distt.- Bangalore, Pin Code- 560058",
@@ -48109,9 +48120,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0280874,
+    "longitude": 77.5120799,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Sri Gangothri College Of Nursing, No. 24, Hadasiddapura, Doddakanahalli Post, Bangalore , Distt.- Bangalore, Pin Code- 560035",
@@ -48120,9 +48131,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9048022,
+    "longitude": 77.6821069,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Sri Kalabyraveshwara Swamy College Of Nursing, No.1, 2Nd Cross, Chbs 3Rd Stage, Chandra Layout , Bangalore, Distt.- Bangalore, Pin Code- 560040",
@@ -48142,9 +48153,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0206268,
+    "longitude": 77.6478852,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Sri Muneshwara College Of Nursing, #144, Machohalli Village, Dasanapura Hobli, Bangalore, Distt.- Bangalore, Pin Code- 560091",
@@ -48153,9 +48164,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9866413,
+    "longitude": 77.4904285,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Sri Ramakrishna College Of Nursing,, West Of Chord Road, 2Nd Stage, Mahalakshmipuram, Bangalore, Distt.- Bangalore, Pin Code- 560086",
@@ -48175,9 +48186,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9849815,
+    "longitude": 77.553344,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Sri Sai School Of Nursing, No 375, 1St Main Road, Vidhanasouda Layout, Laggere, Bangalore - 560058, Bangalore , Distt.- Bangalore, Pin Code- 560058",
@@ -48186,9 +48197,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0280874,
+    "longitude": 77.5120799,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Sri Sathya Sai Institute Of Higher Medical Sciences, Epip Area, Whitefield, Bangalore, Distt.- Bangalore, Pin Code- 560066",
@@ -48197,9 +48208,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9698066,
+    "longitude": 77.7499632,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Sri Shankara College Of Nursing, 1St Cross, Shankarapuram, Basavanagudi, Distt.- Bangalore, Pin Code- 560004",
@@ -48208,9 +48219,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9437506,
+    "longitude": 77.5737598,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Sri Shanthini College Of Nursing, No.61, Janapriya Township, Magadi, Main Road, Kadabagere Post, Vill.- Bettahalli, Tehsil- Bangalore North, Distt.- Bangalore, Pin Code- 562130",
@@ -48219,9 +48230,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9459719,
+    "longitude": 77.3898602,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Sri Shanthini School Of Nursing, Sy No:18/318-319 Kuduregere Colony, Dasanapura, Hobli, Alur Post, , Bangalore, Distt.- Bangalore, Pin Code- 562162",
@@ -48230,9 +48241,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0623299,
+    "longitude": 77.4587239,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Sri Shantidhama School Of Nursing, 11/1A,Byraveshwaranagar,3Rd Cross,Sunkudakatte, Bangalore, Distt.- Bangalore, Pin Code- 560091",
@@ -48241,9 +48252,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9866413,
+    "longitude": 77.4904285,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Sri Soubhagya Lalitha College Of Nursing, Near Radhakrishna High School,Gutte Srinagara,, Bangalore, Distt.- Bangalore, Pin Code- 560050",
@@ -48252,9 +48263,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9397836,
+    "longitude": 77.553344,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Sri Venkateshwara College Of Nursing, Gg Farm,Nh4, Tumkur Road, Dasanapura Village, Bangalore, Distt.- Bangalore, Pin Code- 562123",
@@ -48263,9 +48274,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.1137712,
+    "longitude": 77.355413,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Sri Vinayaka College Of Nursing, No 81, Machohalli, Magadi Main Road, Bangalore, Bangalore, Distt.- Bangalore, Pin Code- 560091",
@@ -48274,9 +48285,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0065559,
+    "longitude": 77.4520643,
+    "coordinateStatus": "researched_override"
   },
   {
     "name": "Sri Vishnu College Of Nursing, # 538 M.S. Ramaiah Enclave Nagasandra Post, Tumkur Road , Bangalore, Distt.- Bangalore, Pin Code- 560073",
@@ -48285,9 +48296,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.049621,
+    "longitude": 77.4941462,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "St Benedicts Institute Of Nursing, Asirvanam, Anchepalaya, Kumbalagodu Post, Mysore Road, Bangalore - 560074., Bangalore, Distt.- Bangalore, Pin Code- 560074",
@@ -48307,9 +48318,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore Rural",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.1137712,
+    "longitude": 77.355413,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "St John's College Of Nursing, St. Johns National Academy Of Health Sciences, Sarjapura Road, Bangalore, Distt.- Bangalore, Pin Code- 560034",
@@ -48329,9 +48340,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9719249,
+    "longitude": 77.512809,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "St Martha's Hospital College Of Nursing, No 5 Nrupathunga Road, Bangalore, Distt.- Bangalore, Pin Code- 560001",
@@ -48373,9 +48384,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0493782,
+    "longitude": 77.5991921,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "St. Philomena's Hospital College Of Nursing, No.1, Mother Theresa Road, Viveknagar Post, Bangalore , Bangalore, Distt.- Bangalore, Pin Code- 560047",
@@ -48406,9 +48417,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9514678,
+    "longitude": 77.492145,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Surya College Of Nursing, No 96 Bommenahalli Village , Old Madras Road.Mandur Post, Budigere Cross, Vill.- , Tehsil- Bangalore East, Distt.- Bangalore, Pin Code- 560049",
@@ -48417,9 +48428,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0222936,
+    "longitude": 77.7132065,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Sushrutha College Of Nursing, Swami Vivekananda Yoga Anusudana Samstana, (S-Vyasa Campus) Prasanthi Kuteeram, Jodi Bingipura, Kalubalu Post, Jigani Hobli, Anekal Taluk, Bangaluru, Distt.- Bangalore, Pin Code- 560106",
@@ -48439,9 +48450,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9459719,
+    "longitude": 77.3898602,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Swetha School Of Nursing, No.61, Near Janapriya Township, Kadabagere, Magadi Road, Bangalore, Distt.- Bangalore, Pin Code- 563021",
@@ -48472,9 +48483,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9866413,
+    "longitude": 77.4904285,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "The Oxford College Of Nursing, 6/9, Ist Cross, Begur Main Road, Hongasandra, Bangalore, Vill.- , Tehsil- Bangalore South, Distt.- Bangalore, Pin Code- 560068",
@@ -48483,9 +48494,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.8892684,
+    "longitude": 77.63991,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Universal College Of Nursing, Nirmalaram Campus, Arekere, Iim B Po, Bannerghatta Road, Vill.- , Tehsil- Bangalore South, Distt.- Bangalore, Pin Code- 560076",
@@ -48494,9 +48505,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.8845097,
+    "longitude": 77.6035522,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Vagdevi College Of Nursing, Opp. Jindal Govt High School, Pipe Line Road, Hesaraghatta Main Road, Chikkabanavara, Bangalore, Distt.- Bangalore, Pin Code- 560090",
@@ -48505,9 +48516,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.1038753,
+    "longitude": 77.4988753,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Valley School Of Nursing, Bethel Medical Mission Campus Preethi Nagar Laggere Ring Road Bridge Bangalore, Bangalore, Distt.- Bangalore, Pin Code- 560086",
@@ -48527,9 +48538,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.10197,
+    "longitude": 77.5863591,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Vidyakirana Institute Of Nursing Sciences, #7, 7Th Cross, Venkateshwara Layout,Jamboosavari, Jamboosavari Dinne , Distt.- Bangalore, Pin Code- 560007",
@@ -48549,9 +48560,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9719249,
+    "longitude": 77.512809,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Vimalalaya College Of Nursing, Huskur Gate, Electronic City Post, Bangalore, Distt.- Bangalore, Pin Code- 560100",
@@ -48560,9 +48571,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.8498481,
+    "longitude": 77.6544856,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Viswa Sai School Of Nursing, No.66, 2Nd Main, Muneswara Layout, Kodichikkanahalli, Bangalore, Bangalore, Distt.- Bangalore, Pin Code- 560076",
@@ -48571,9 +48582,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.8845097,
+    "longitude": 77.6035522,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Viswabharathi School Of Nursing, No.54-59, Uttarahalli Main Road Uttarahalli, Vill.- Uttarahalli, Tehsil- Bangalore South, Distt.- Bangalore, Pin Code- 560061",
@@ -48582,9 +48593,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9037254,
+    "longitude": 77.5376389,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Vydehi Institute Of Nursing Sciences Reseaarch Centre, No. 82, Epip Area, Nallurahalli, Whitefield, Bengaluru, Distt.- Bangalore, Pin Code- 560066",
@@ -48593,9 +48604,9 @@
     "city": "Bengaluru",
     "state": "Karnataka",
     "district": "Bangalore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 12.9698066,
+    "longitude": 77.7499632,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Abdul Wahab Memorial Rajah School Of Nursing,, Muthuvattoor, Chavakkad, Distt.- Thrissur, Pin Code- 680506",
@@ -48615,9 +48626,9 @@
     "city": "Thrissur",
     "state": "Kerala",
     "district": "Thrissur",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 10.5614022,
+    "longitude": 76.1740266,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Amala College Of Nursing, Amala Instt Of Medical Sciences, Amalanagar P O, Vill.- , Tehsil- Puzhakkal, Distt.- Thrissur, Pin Code- 680555",
@@ -48626,9 +48637,9 @@
     "city": "Thrissur",
     "state": "Kerala",
     "district": "Thrissur",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 10.5614022,
+    "longitude": 76.1740266,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Amrita College Of Nursing, Amrita Vishwavidyapeetham, Health Science Campus, Kochi, Distt.- Eranakulam, Pin Code- 682041",
@@ -48692,9 +48703,9 @@
     "city": "Kozhikode North + South",
     "state": "Kerala",
     "district": "Kozhikode",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 11.2960026,
+    "longitude": 75.8214371,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Carmel College Of Nursing, Chunangamvely, Aluva, Distt.- Eranakulam, Pin Code- 683112",
@@ -48780,9 +48791,9 @@
     "city": "Thiruvananthapuram",
     "state": "Kerala",
     "district": "Thiruvananthapur am",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 8.5300309,
+    "longitude": 76.9239727,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Government College Of Nursing, Medical College Hospital, Thrissur, Distt.- Thrissur, Pin Code- 680596",
@@ -48802,9 +48813,9 @@
     "city": "Thiruvananthapuram",
     "state": "Kerala",
     "district": "Thiruvananthapur am",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 8.5300309,
+    "longitude": 76.9239727,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Govt School Of Nursing, Ernakulam, Ernakulam, Distt.- Eranakulam, Pin Code- 682011",
@@ -48824,9 +48835,9 @@
     "city": "Thiruvananthapuram",
     "state": "Kerala",
     "district": "Thiruvananthapur am",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 8.5009866,
+    "longitude": 76.938379,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Govt School Of Nursing, Maternity Hospital Campus, Thrissur, Distt.- Thrissur, Pin Code- 680001",
@@ -48835,9 +48846,9 @@
     "city": "Thrissur",
     "state": "Kerala",
     "district": "Thrissur",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 10.5192579,
+    "longitude": 76.2145961,
+    "coordinateStatus": "source"
   },
   {
     "name": "Govt. College Of Nursing, Kozhicode Medical College, Kozhikode, Distt.- Kozhikode, Pin Code- 673008",
@@ -48846,9 +48857,9 @@
     "city": "Kozhikode North + South",
     "state": "Kerala",
     "district": "Kozhikode",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 11.2621704,
+    "longitude": 75.8650148,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Indira Gandhi College Of Nursing, Indira Gandhi Cooperative Hospital, P No 2019, Ernakulam, Distt.- Eranakulam, Pin Code- 682020",
@@ -48868,9 +48879,9 @@
     "city": "Kozhikode North + South",
     "state": "Kerala",
     "district": "Kozhikode",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 11.2621704,
+    "longitude": 75.8650148,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Jubilee Mission College Of Nursing, Bishop Alapatt Road, Jubilee Mission P.O., Thrissur East , Thrissur , Distt.- Thrissur, Pin Code- 680005",
@@ -49044,9 +49055,9 @@
     "city": "Kozhikode North + South",
     "state": "Kerala",
     "district": "Kozhikode",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 11.2960026,
+    "longitude": 75.8214371,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "P V S College Of Nursing, Near Railway Station Road, Pantheerankavu Vill.- , Tehsil- Kozhikkode, Distt.- Kozhikode, Pin Code- 673019",
@@ -49077,9 +49088,9 @@
     "city": "Thiruvananthapuram",
     "state": "Kerala",
     "district": "Thiruvananthapur am",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 8.5300309,
+    "longitude": 76.9239727,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "S U T School Of Nursing, Pmra-30, , Thiruvananthapuram, Distt.- Thiruvananthapuram, Pin Code- 695004",
@@ -49143,9 +49154,9 @@
     "city": "Thrissur",
     "state": "Kerala",
     "district": "Thrissur",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 10.5192579,
+    "longitude": 76.2145961,
+    "coordinateStatus": "duplicate_collapsed"
   },
   {
     "name": "School Of Nursing,, Kozhikode District Cooperative Hospital,, Calicut, Distt.- Kozhikode, Pin Code- 673006",
@@ -49165,9 +49176,9 @@
     "city": "Thiruvananthapuram",
     "state": "Kerala",
     "district": "Thiruvananthapur am",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 8.5009866,
+    "longitude": 76.938379,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Si-Met College Of Nursing, Palluruthy, Kacheripady , Ernakulam, Distt.- Eranakulam, Pin Code- 682006",
@@ -49275,9 +49286,9 @@
     "city": "Pune",
     "state": "Maharashtra",
     "district": "Pune",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 18.7716705,
+    "longitude": 73.7242486,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "B Y L Nair Charitable Hospital, Dr.A.L.Nair Road , Mumbai-Central, Distt.- Mumbai, Pin Code- 400008",
@@ -49286,9 +49297,9 @@
     "city": "Mumbai",
     "state": "Maharashtra",
     "district": "Mumbai",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 18.9671396,
+    "longitude": 72.8286571,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Bharati Vidyapeeth University, College Of Nursing, Satara Road, Dhankawadi, Pune, Distt.- Pune, Pin Code- 411043",
@@ -49308,9 +49319,9 @@
     "city": "Mumbai",
     "state": "Maharashtra",
     "district": "Mumbai Mumbai",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 18.9351176,
+    "longitude": 72.8264378,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "College Of Nursing, Government Medical College And Hospital, Ajni, Vill.- , Tehsil- Nagpur(Urban)1&2, Distt.- Nagpur, Pin Code- 440003",
@@ -49341,9 +49352,9 @@
     "city": "Mumbai",
     "state": "Maharashtra",
     "district": "Mumbai",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 18.9671396,
+    "longitude": 72.8286571,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "College Of Nursing,Aiims,Nagpur, College Of Nursing,All India Institute Of Medical Sciences, Nagpur, Plot No. 2, Sector - 20, Mihan, Nagpur, Maharashtra, Pin: 441108, Nagpur, Distt.- Nagpur, Pin Code- 441108",
@@ -49352,9 +49363,9 @@
     "city": "Nagpur Urban + Rural",
     "state": "Maharashtra",
     "district": "Nagpur",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 20.7906083,
+    "longitude": 79.0645056,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "D.E. Society's Smt. Subhadra K. Jindal College Of Nursing, Pune, Fergusson College Campus, Shivajinagar, Pune 411004, Pune, Distt.- Pune, Pin Code- 411004",
@@ -49374,9 +49385,9 @@
     "city": "Nagpur Urban + Rural",
     "state": "Maharashtra",
     "district": "Nagpur",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 21.1484602,
+    "longitude": 79.0955723,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Datta Meghe College Of Nursing, Rgcer Campus, Hingna Road, Wanadongri, Nagpur, Nagpur, Distt.- Nagpur, Pin Code- 441110",
@@ -49385,9 +49396,9 @@
     "city": "Nagpur Urban + Rural",
     "state": "Maharashtra",
     "district": "Nagpur",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 21.0735945,
+    "longitude": 78.8948741,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Dhareshwar Institute Of Nursing, Sr. No 48,Hissa No. 1/16, Indraprashta Nagar, Dhayari, Pune , Distt.- Pune, Pin Code- 411041",
@@ -49396,9 +49407,9 @@
     "city": "Pune",
     "state": "Maharashtra",
     "district": "Pune",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 18.4601666,
+    "longitude": 73.8114873,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Dr R N Cooper Hospital, School Of Nursing, Vile Parle,Juhu, Mumbai , Distt.- Mumbai, Pin Code- 400056",
@@ -49462,9 +49473,9 @@
     "city": "Nagpur Urban + Rural",
     "state": "Maharashtra",
     "district": "Nagpur",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 21.1484602,
+    "longitude": 79.0955723,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Indira Gandhi Nursing School, Near Parwe Petrol Pump Main Road, Bhiwapur, Distt.- Nagpur, Pin Code- 441201",
@@ -49484,9 +49495,9 @@
     "city": "Mumbai",
     "state": "Maharashtra",
     "district": "Mumbai",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 18.9995407,
+    "longitude": 72.8397089,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "K. J. Somaiya College Of Nursing, 4Th Floor, K.J.Somaiya Hospital Complex, Near Everard Nagar, Near Eastern Express Highway, Sion, Vill.- , Tehsil- Kurla, Distt.- Mumbai, Pin Code- 400022",
@@ -49506,9 +49517,9 @@
     "city": "Pune",
     "state": "Maharashtra",
     "district": "Pune",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 18.5234814,
+    "longitude": 73.8638613,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Late U T Jadhavar Foundation's Institute Of Nursing, Manaji Nagar,Near Aditya Sankruti,Narhe, Pune , Distt.- Pune, Pin Code- 411041",
@@ -49517,9 +49528,9 @@
     "city": "Pune",
     "state": "Maharashtra",
     "district": "Pune",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 18.4601666,
+    "longitude": 73.8114873,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Leelabai Thackersey Coll. Of Nsg., S.N.D.T. Women's University, 5Th Floor, Patkar Hall Building, 1 N.T. Road, New Marine Lines, Vill.- , Tehsil- Andheri, Distt.- Mumbai, Pin Code- 400020",
@@ -49528,9 +49539,9 @@
     "city": "Mumbai",
     "state": "Maharashtra",
     "district": "Mumbai",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 18.9351176,
+    "longitude": 72.8264378,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Lokmanya Tilak Municipal General Hospital, General Hospital School Of Nursing Sion Mumbai, Mumbai, Distt.- Mumbai, Pin Code- 400002",
@@ -49561,9 +49572,9 @@
     "city": "Pune",
     "state": "Maharashtra",
     "district": "Pune",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 18.7716705,
+    "longitude": 73.7242486,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Maeer,S Vishwaraj Institute Of Nursing Gate No, 499, Solapur - Pune Hwy, Near Loni Station, Kadamwak Vasti, Loni Kalbhor, Maharashtra 412201, Pune, Distt.- Pune, Pin Code- 412201",
@@ -49583,9 +49594,9 @@
     "city": "Pune",
     "state": "Maharashtra",
     "district": "Pune",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 18.5296029,
+    "longitude": 73.8760153,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Mahatma Gandhi Memorial Hospital, Dr.S.S.Rao Road,Parel, Mumbai, Distt.- Mumbai, Pin Code- 400012",
@@ -49594,9 +49605,9 @@
     "city": "Mumbai",
     "state": "Maharashtra",
     "district": "Mumbai",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 18.9995407,
+    "longitude": 72.8397089,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Mrs. Kumudben Madanbhai Sura Nursing School, Indulal Complex, Above Rupee Bank, Lal Bahadur Shastri Marg, Pune, Distt.- Pune, Pin Code- 411030",
@@ -49616,9 +49627,9 @@
     "city": "Pune",
     "state": "Maharashtra",
     "district": "Pune",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 18.512489,
+    "longitude": 73.8611812,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "P D Hinduja National Hospital & Mrc College Of Nursing, Emerald Court Kondivita Lane Marol Pipe Line Andheri East , Mumbai, Distt.- Mumbai, Pin Code- 400059",
@@ -49671,9 +49682,9 @@
     "city": "Pune",
     "state": "Maharashtra",
     "district": "Pune",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 18.5296029,
+    "longitude": 73.8760153,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "School Of Nursing, Chandrakant Yeshwant Dangat Patil Shikshan Va Krida Mandal Sr.No.46,Vidya Nagar, Vill.- Vadagaon Budruk, Tehsil- Haveli, Distt.- Pune, Pin Code- 411041",
@@ -49682,9 +49693,9 @@
     "city": "Pune",
     "state": "Maharashtra",
     "district": "Pune",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 18.4601666,
+    "longitude": 73.8114873,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "School Of Nursing,Guru Nanak Hospital , S-341, Gandhi Nagar, Bandra (E), Mumbai, Distt.- Mumbai, Pin Code- 400051",
@@ -49704,9 +49715,9 @@
     "city": "Pune",
     "state": "Maharashtra",
     "district": "Pune",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 18.5234814,
+    "longitude": 73.8638613,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Shri Harilal Bhagwati Municipal Gen Hospital, S.V.P.Road,Borivali West, Mumbai, Distt.- Mumbai, Pin Code- 400103",
@@ -49726,9 +49737,9 @@
     "city": "Pune",
     "state": "Maharashtra",
     "district": "Pune",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 18.4601666,
+    "longitude": 73.8114873,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Sir Hurkisondas Nurrotumdas Hospital & Research Centre College Of Nursing, C/O Reliance Industries Ltd Indiranagar, Fossbery Road,Sewri, Sewree, Distt.- Mumbai, Pin Code- 400033",
@@ -49748,9 +49759,9 @@
     "city": "Nagpur Urban + Rural",
     "state": "Maharashtra",
     "district": "Nagpur",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 21.0735945,
+    "longitude": 78.8948741,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Smt D Y Sawant Nursing (Ranm) School, Nardas Nagar, Tembhi Pada Road, Bhandup (West) , Mumbai, Distt.- Mumbai, Pin Code- 40078",
@@ -49792,9 +49803,9 @@
     "city": "Pune",
     "state": "Maharashtra",
     "district": "Pune Pune",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 18.512489,
+    "longitude": 73.8611812,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Sumantai Wasnik Institute Of Nursing, Kha No 142/1, Shivpriya Nagar, Opp. Ganesh Nagar, Dabha , Nagpur, Distt.- Nagpur, Pin Code- 440023",
@@ -49814,9 +49825,9 @@
     "city": "Nagpur Urban + Rural",
     "state": "Maharashtra",
     "district": "Nagpur",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 20.7906083,
+    "longitude": 79.0645056,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Suwarna School Of Nursing, Raymond Colony,Saoner, Nagpur, Distt.- Nagpur, Pin Code- 441107",
@@ -49836,9 +49847,9 @@
     "city": "Pune",
     "state": "Maharashtra",
     "district": "Pune",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 18.537122,
+    "longitude": 73.6771662,
+    "coordinateStatus": "source"
   },
   {
     "name": "Symbiosis College Of Nursing, Symbiosis College Of Nursing,Symbiosisinternational(Deemed University)Campus, Hill Base, Lavale, Pune, 412115, Pune, Distt.- Pune, Pin Code- 412115",
@@ -49847,9 +49858,9 @@
     "city": "Pune",
     "state": "Maharashtra",
     "district": "Pune",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 18.537122,
+    "longitude": 73.6771662,
+    "coordinateStatus": "duplicate_collapsed"
   },
   {
     "name": "Talegaon General Hosp & Convalescent Home' S, Talegaon General Hospital & Convalescent Home, Behind Post Office, General Hospital Campus, Near Railway Station, Talegaon Dabhade, Pune-410507, Talegaon Dabhade, Pune, Distt.- Pune, Pin Code- 410507",
@@ -49869,9 +49880,9 @@
     "city": "Mumbai",
     "state": "Maharashtra",
     "district": "Mumbai",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 18.9995407,
+    "longitude": 72.8397089,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Tehmi Grant Institute Of Nursing Education, Opp. Hotel Meru, 13 Tadiwala Road , Vill.- , Tehsil- Haveli, Distt.- Pune, Pin Code- 411001",
@@ -49880,9 +49891,9 @@
     "city": "Pune",
     "state": "Maharashtra",
     "district": "Pune",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 18.5296029,
+    "longitude": 73.8760153,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Vspm's Madhuribai Deshmukh Institute Of Nursing Education , Lata Mangeshkar Hospital,Digdoh Hills,Hingna Road, Nagpur, Distt.- Nagpur, Pin Code- 440019",
@@ -49913,9 +49924,9 @@
     "city": "Coimbatore North + South",
     "state": "Tamilnadu",
     "district": "Coimbatore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 10.9127276,
+    "longitude": 76.9297354,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Annai Meenakshi College Of Nursing, Pb No 4431, Industrial Estate Post, Madukkarai Market Road,, Vill.- , Tehsil- Madukkarai, Distt.- Coimbatore, Pin Code- 641021",
@@ -49924,9 +49935,9 @@
     "city": "Coimbatore North + South",
     "state": "Tamilnadu",
     "district": "Coimbatore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 10.9315512,
+    "longitude": 76.9815877,
+    "coordinateStatus": "source"
   },
   {
     "name": "Apollo College Of Nursing, Vanagaram To Ambattur Main Road Ayanambakkam, Chennai, Distt.- Thiruvallur, Pin Code- 600095 Apollo College Of Nursing, Vanagaram To Ambattur Main Road Ayanambakkam, Chennai, Distt.- Thiruvallur, Pin Code- 600095",
@@ -49935,9 +49946,9 @@
     "city": "Chennai",
     "state": "Tamilnadu",
     "district": "Thiruvallur Thiruvallur",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0612654,
+    "longitude": 80.1707662,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Apollo School Of Nursing, Vanagaram To Ambattur Main Road Ayanamabakkam, Chennai , Distt.- Thiruvallur, Pin Code- 600095",
@@ -49946,9 +49957,9 @@
     "city": "Chennai",
     "state": "Tamilnadu",
     "district": "Thiruvallur",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0612654,
+    "longitude": 80.1707662,
+    "coordinateStatus": "duplicate_collapsed"
   },
   {
     "name": "Bhaarath College Of Nursing, No. 173, Agharam Road, Selaiyur,, Chennai, Distt.- Kancheepuram, Pin Code- 600073",
@@ -49968,9 +49979,9 @@
     "city": "Chennai",
     "state": "Tamilnadu",
     "district": "Chennai",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0612654,
+    "longitude": 80.1707662,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "C S I Kalyani College Of Nursing , No 15, Dr Radhakrishnan Salai , Vill.- Chennai, Tehsil- Mylapore, Distt.- Chennai, Pin Code- 600004",
@@ -49979,9 +49990,9 @@
     "city": "Chennai",
     "state": "Tamilnadu",
     "district": "Chennai",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0368548,
+    "longitude": 80.2676463,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "C S I Rainy Hospital School Of Nursing , No 45 G A Road Old Washermenpet, Vill.- , Tehsil- Tondiarpet, Distt.- Chennai, Pin Code- 600021",
@@ -50023,9 +50034,9 @@
     "city": "Chennai",
     "state": "Tamilnadu",
     "district": "Chennai",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0816437,
+    "longitude": 80.2752316,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Dr Alva Paramedical Educational Institute, 74/ A2, Meenkarai Road, Ambarampalayam, Coimbatore, Distt.- Coimbatore, Pin Code- 642103",
@@ -50045,9 +50056,9 @@
     "city": "Coimbatore North + South",
     "state": "Tamilnadu",
     "district": "Coimbatore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 10.9127276,
+    "longitude": 76.9297354,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Ennam College Of Nursing, Elur Post, Solavampalayam Village, Vill.- , Tehsil- Kinathukadavu, Distt.- Coimbatore, Pin Code- 641032",
@@ -50056,9 +50067,9 @@
     "city": "Coimbatore North + South",
     "state": "Tamilnadu",
     "district": "Coimbatore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 10.8483838,
+    "longitude": 76.9758274,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Ganga College Of Nursing, Sf.No 442, Vattamalaipalayam Nggo Colony, Vill.- Coimbatore, Tehsil- Perianaicken Palayam, Distt.- Coimbatore, Pin Code- 641022",
@@ -50089,9 +50100,9 @@
     "city": "Coimbatore North + South",
     "state": "Tamilnadu",
     "district": "Coimbatore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 11.0126517,
+    "longitude": 77.0017465,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Institute Of Nursing , G.Kuppuswamy Naidu Memmorial Hospital, Coimbatore , Distt.- Coimbatore, Pin Code- 641037",
@@ -50155,9 +50166,9 @@
     "city": "Coimbatore North + South",
     "state": "Tamilnadu",
     "district": "Coimbatore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 10.8483838,
+    "longitude": 76.9758274,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Kongunadu College Of Nursing , 518- 520, Dheenampalyam, Vill.- Kalikkanaichenpalayam , Tehsil- Thondamuthur, Distt.- Coimbatore, Pin Code- 641109",
@@ -50210,9 +50221,9 @@
     "city": "Coimbatore North + South",
     "state": "Tamilnadu",
     "district": "Coimbatore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 10.9127276,
+    "longitude": 76.9297354,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Omayal Achi College Of Nursing , No.45, Ambattur Road, Puzhal, Chennai, Distt.- Chennai, Pin Code- 600066",
@@ -50232,9 +50243,9 @@
     "city": "Coimbatore North + South",
     "state": "Tamilnadu",
     "district": "Coimbatore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 11.0126517,
+    "longitude": 77.0017465,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "R V S College Of Nursing, 242-B, Trichy Road, Vill.- Sulur, Tehsil- Soolur, Distt.- Coimbatore, Pin Code- 641402",
@@ -50276,9 +50287,9 @@
     "city": "Coimbatore North + South",
     "state": "Tamilnadu",
     "district": "Coimbatore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 10.9127276,
+    "longitude": 76.9297354,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "S N S College Of Nursing, Sns Kalvi Nagar, Sathy Road, Saravanampatti Po, Vill.- Saravanampatti, Tehsil- Sarcarsamakulam, Distt.- Coimbatore, Pin Code- 641035",
@@ -50298,9 +50309,9 @@
     "city": "Coimbatore North + South",
     "state": "Tamilnadu",
     "district": "Coimbatore",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 10.9127276,
+    "longitude": 76.9297354,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Saveetha College Of Nursing, Saveetha University, Saveetha Nagar, Thandalam, Chennai, Distt.- Kancheepuram, Pin Code- 602105",
@@ -50353,9 +50364,9 @@
     "city": "Chennai",
     "state": "Tamilnadu",
     "district": "Chennai",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0816437,
+    "longitude": 80.2752316,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "School Of Nursing, Stanley Medical College, Old Jail Road, Mint, Vill.- , Tehsil- Tondiarpet, Distt.- Chennai, Pin Code- 600001",
@@ -50430,9 +50441,9 @@
     "city": "Chennai",
     "state": "Tamilnadu",
     "district": "Chennai",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0368548,
+    "longitude": 80.2676463,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "St.Marys School Of Nursing , St.Marys Hospital Campus, Church Road, Podanur, Distt.- Coimbatore, Pin Code- 641023",
@@ -50485,9 +50496,9 @@
     "city": "Chennai",
     "state": "Tamilnadu",
     "district": "Thiruvallur",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 13.0612654,
+    "longitude": 80.1707662,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Vijaya College Of Nursing, No:323, Nsk Salai, Vadapalani, Chennai -600026., Chennai, Distt.- Chennai, Pin Code- 600026",
@@ -50562,9 +50573,9 @@
     "city": "Hyderabad",
     "state": "Telangana",
     "district": "Medchal",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 17.638454,
+    "longitude": 78.4979248,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Fernandez School Of Nursing, M.No. 2-740/17/10 &8-2-740/17/11/2, Bhola Nagar, Road No.12 Banjarahills, Shaikpet Mandal, Hyderabad, T.S., Hyderabad, Distt.- Hyderabad, Pin Code- 500034",
@@ -50573,9 +50584,9 @@
     "city": "Hyderabad",
     "state": "Telangana",
     "district": "Hyderabad",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 17.4145868,
+    "longitude": 78.4382677,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Global Kasturba College Of Nursing, Plot No 651, 9Th Phase Kphb Colony, Venkataramana Colony, Hyderabad, Distt.- Ranga Reddy, Pin Code- 500085",
@@ -50584,9 +50595,9 @@
     "city": "Hyderabad",
     "state": "Telangana",
     "district": "Ranga Reddy",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 17.4879651,
+    "longitude": 78.3822011,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Global School Of Nursing, Plot No 649, Beside Emerald Techno School,Near 9Th Phase, Hafeezpet, Serilingampally, Hyderabad , Distt.- Ranga Reddy, Pin Code- 500085",
@@ -50595,9 +50606,9 @@
     "city": "Hyderabad",
     "state": "Telangana",
     "district": "Ranga Reddy",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 17.4879651,
+    "longitude": 78.3822011,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Holy Fatima School Of Nursing, Road No.29, Alakpoor, Township,Narsingi, Vill.- Mehdipatnam, Tehsil- Asifnagar, Distt.- Hyderabad, Pin Code- 500028",
@@ -50639,9 +50650,9 @@
     "city": "Hyderabad",
     "state": "Telangana",
     "district": "Hyderabad",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 17.4145868,
+    "longitude": 78.4382677,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "J M J College Of Nursing,, St Theresa's Hospital Campus, Sanathnagar, Hyderabad, Distt.- Hyderabad, Pin Code- 500018",
@@ -50672,9 +50683,9 @@
     "city": "Hyderabad",
     "state": "Telangana",
     "district": "Hyderabad",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 17.4369259,
+    "longitude": 78.4894015,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Kalanjali College Of Nursing, 16-10- 1/Tr/B/1, Saleemnagar Colony, Malakpet, Vill.- Malakpet, Tehsil- Saidabad, Distt.- Hyderabad, Pin Code- 500036",
@@ -50694,9 +50705,9 @@
     "city": "Hyderabad",
     "state": "Telangana",
     "district": "Ranga Reddy Ranga Reddy",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 17.3704375,
+    "longitude": 78.5751399,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Kasturi School Of Nursing, D.No:1-2- 55, Kothapet,Saroornagar(P.O),, Hyderabad, Distt.- Ranga Reddy, Pin Code- 500035",
@@ -50705,9 +50716,9 @@
     "city": "Hyderabad",
     "state": "Telangana",
     "district": "Ranga Reddy",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 17.3552776,
+    "longitude": 78.5376906,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Malla Reddy College Of Nursing, Survey No.116,Suraram X Roads, Qutbullapur Municipality, Jeedimetla,, Hyderabad, Distt.- Hyderabad, Pin Code- 500055",
@@ -50716,9 +50727,9 @@
     "city": "Hyderabad",
     "state": "Telangana",
     "district": "Hyderabad",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 17.5248148,
+    "longitude": 78.4497875,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Mamata Nursing College, Mamata Academy Of Medical Sciences Campus, Bachupally, Hyderabad, Distt.- Medchal, Pin Code- 500090",
@@ -50760,9 +50771,9 @@
     "city": "Hyderabad",
     "state": "Telangana",
     "district": "Hyderabad",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 17.4369259,
+    "longitude": 78.4894015,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Neelima College Of Nursing, Venkatapur Village Ghatkesar Mandal Medchal Dist, Hyderabad, Distt.- Medchal, Pin Code- 500088",
@@ -50881,9 +50892,9 @@
     "city": "Hyderabad",
     "state": "Telangana",
     "district": "Medchal",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 17.5248148,
+    "longitude": 78.4497875,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Swapna School Of Nursing,, 1-7- 89/1,Chaitanyapuri, Hyderabad, Distt.- Ranga Reddy, Pin Code- 500060",
@@ -50892,9 +50903,9 @@
     "city": "Hyderabad",
     "state": "Telangana",
     "district": "Ranga Reddy",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 17.3684567,
+    "longitude": 78.5305261,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "T.G.S.R.T.C. College Of Nursing, Tarnaka Flyover, Osmania University Road, Vill.- , Tehsil- Secunderabad, Distt.- Hyderabad, Pin Code- 500007",
@@ -50914,9 +50925,9 @@
     "city": "Hyderabad",
     "state": "Telangana",
     "district": "Medchal",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 17.4801969,
+    "longitude": 78.4171028,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Thatha School Of Nursing,, 22, Anupuram, E C I L Post, Hyderabad Distt.- Medchal, Pin Code- 500062",
@@ -50958,9 +50969,9 @@
     "city": "Hyderabad",
     "state": "Telangana",
     "district": "Ranga Reddy",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 17.3552776,
+    "longitude": 78.5376906,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Aliah University, Department Of Nursing, 17, Gora Chand Road, Park Circus, Vill.- , Tehsil- Kolkata, Distt.- Kolkata, Pin Code- 700014",
@@ -51002,9 +51013,9 @@
     "city": "Kolkata",
     "state": "West Bengal",
     "district": "Kolkata",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 22.4288132,
+    "longitude": 88.2880458,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "B P Poddar And Parvati Devi Academy Of Nursing, 46, Manujendra Dutta Road, Gorabazar, Vill.- , Tehsil- Kolkata, Distt.- Kolkata, Pin Code- 700028",
@@ -51024,9 +51035,9 @@
     "city": "Kolkata",
     "state": "West Bengal",
     "district": "South 24 Parganas",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 22.4288132,
+    "longitude": 88.2880458,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Budge Budge Institute Of Nursing, Chandipur More, Birlapur Road, P.S.: Nodakhali, P.O.: B Chandipur, Kolkata- 700137, Kolkata, Distt.- Kolkata, Pin Code- 700137",
@@ -51035,9 +51046,9 @@
     "city": "Kolkata",
     "state": "West Bengal",
     "district": "Kolkata",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 22.4548955,
+    "longitude": 88.1974148,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "College And School Of Nursing, R.N. Tagore Hospital, A Unit Of Asia Heart Foundation, Ukhila-2, Paikpara, Narendrapur, Vill.- , Tehsil- Kolkata, Distt.- Kolkata, Pin Code- 700103 College And School Of Nursing, R.N. Tagore Hospital, A Unit Of Asia Heart Foundation, Ukhila-2, Paikpara, Narendrapur, Vill.- , Tehsil- Kolkata, Distt.- Kolkata, Pin Code- 700103",
@@ -51068,9 +51079,9 @@
     "city": "Kolkata",
     "state": "West Bengal",
     "district": "Kolkata",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 22.5259613,
+    "longitude": 88.3341144,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "College Of Nursing, Institute Of Psychiatry-Coe, 7, D. L. Khan Road, Kolkata, Distt.- Kolkata, Pin Code- 700025",
@@ -51090,9 +51101,9 @@
     "city": "Kolkata",
     "state": "West Bengal",
     "district": "Kolkata",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 22.5730558,
+    "longitude": 88.3616857,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "College Of Nursing, R G Kar Medical College & Hospital, 1 Kshudiram Bose Sarani,, Vill.- , Tehsil- Kolkata, Distt.- Kolkata, Pin Code- 700004",
@@ -51101,9 +51112,9 @@
     "city": "Kolkata",
     "state": "West Bengal",
     "district": "Kolkata",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 22.5983206,
+    "longitude": 88.3745014,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Falta Jis Nursing Institute, Vill- Dakshin Sargoria, P.O.- Chaberia, P.S.- Falta, Dist- South 24 Pgs, West Bengal- 743504, Kolkata, Distt.- South 24 Parganas, Pin Code- 743504",
@@ -51134,9 +51145,9 @@
     "city": "Kolkata",
     "state": "West Bengal",
     "district": "Kolkata",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 22.5377634,
+    "longitude": 88.3514683,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Government College Of Nursing, Calcutta National Medical College & Hospital, 24, Gorachand Road, Vill.- Tehsil- Kolkata, Distt.- Kolkata, Pin Code- 722102",
@@ -51156,9 +51167,9 @@
     "city": "Kolkata",
     "state": "West Bengal",
     "district": "Kolkata Kolkata",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 22.5630255,
+    "longitude": 88.396257,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Government College Of Nursing, Nil Ratan Sircar Medical College & Hospital, 138, A J C Bose Road, Vill.- Tehsil- Kolkata, Distt.- Kolkata, Pin Code- 700014 Government College Of Nursing, Nil Ratan Sircar Medical College & Hospital, 138, A J C Bose Road, Vill.- Tehsil- Kolkata, Distt.- Kolkata, Pin Code- 700014",
@@ -51167,9 +51178,9 @@
     "city": "Kolkata",
     "state": "West Bengal",
     "district": "Kolkata Kolkata",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 22.5640311,
+    "longitude": 88.3710976,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Institute Of Child Health- Faculty Of Nursing, 11, Dr Biresh Guha Street, Vill.- , Tehsil- Kolkata, Distt.- Kolkata, Pin Code- 700017",
@@ -51178,9 +51189,9 @@
     "city": "Kolkata",
     "state": "West Bengal",
     "district": "Kolkata",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 22.5409396,
+    "longitude": 88.3681347,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Institute Of Nursing, Brainware University, 398 Ramkrishnapur Roadbarasat, Kolkata, Distt.- North Parganas, Pin Code- 700125",
@@ -51200,9 +51211,9 @@
     "city": "Kolkata",
     "state": "West Bengal",
     "district": "Kolkata",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 22.5409396,
+    "longitude": 88.3681347,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Jagannath Gupta Institute Of Nursing Sciences, K.P Mondal Road, Buita, Budge Budge, Kolkata, Distt.- South 24 Parganas, Pin Code- 700137",
@@ -51211,9 +51222,9 @@
     "city": "Kolkata",
     "state": "West Bengal",
     "district": "South 24 Parganas",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 22.4548955,
+    "longitude": 88.1974148,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Kothari Institute Of Nursing, 8/3 Alipore Road, 8/3 Alipore Road, Distt.- Kolkata, Pin Code- 700027",
@@ -51222,9 +51233,9 @@
     "city": "Kolkata",
     "state": "West Bengal",
     "district": "Kolkata",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 22.5259613,
+    "longitude": 88.3341144,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Ma Sarada College Of Nursing, Ramakrishna Mission Seva Pratishthan, 99, Sarat Bose Road, Kolkata, Distt.- Kolkata, Pin Code- 700026",
@@ -51233,9 +51244,9 @@
     "city": "Kolkata",
     "state": "West Bengal",
     "district": "Kolkata",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 22.5187493,
+    "longitude": 88.3425732,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Matri Bhavan College Of Nursing Ramakrishna Sarada Mission, 29, Sree Mohan Lane, Kolkata, Distt.- Kolkata, Pin Code- 700026",
@@ -51244,9 +51255,9 @@
     "city": "Kolkata",
     "state": "West Bengal",
     "district": "Kolkata",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 22.5187493,
+    "longitude": 88.3425732,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Mission Of Mercy School Of Nursing, 125/1, Park Street, Vill.- , Tehsil- Kolkata, Distt.- Kolkata, Pin Code- 700017",
@@ -51255,9 +51266,9 @@
     "city": "Kolkata",
     "state": "West Bengal",
     "district": "Kolkata",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 22.5409396,
+    "longitude": 88.3681347,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Neotia Academy Nursing Training Institute, 2052, Chakgaria, Ward No- 109, Borough No- 12, Vill.- , Tehsil- Kolkata, Distt.- Kolkata, Pin Code- 700094",
@@ -51288,9 +51299,9 @@
     "city": "Kolkata",
     "state": "West Bengal",
     "district": "Kolkata",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 22.5630255,
+    "longitude": 88.396257,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Nursing Training School, E S I Hospital Sealdah, P-233, C I T Scheme Vii-M, Bagmari Road , Vill.- , Tehsil- Kolkata, Distt.- Kolkata, Pin Code- 700054",
@@ -51321,9 +51332,9 @@
     "city": "Kolkata",
     "state": "West Bengal",
     "district": "Kolkata",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 22.5640311,
+    "longitude": 88.3710976,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Nursing Training School, R G Kar Medical College & Hospital, 1 Kshudiram Bose Sarani, , Kolkata, Distt.- Kolkata, Pin Code- 700004",
@@ -51332,9 +51343,9 @@
     "city": "Kolkata",
     "state": "West Bengal",
     "district": "Kolkata",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 22.5983206,
+    "longitude": 88.3745014,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Nursing Training School, Sambhu Nath Pandit Hospital, 11 Lala Lajpat Rai Sarani., Kolkata, Distt.- Kolkata, Pin Code- 700020",
@@ -51343,9 +51354,9 @@
     "city": "Kolkata",
     "state": "West Bengal",
     "district": "Kolkata",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 22.5377634,
+    "longitude": 88.3514683,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Peerless Institute Of Nursing, Peerless Hospital & B. K. Roy Research Centre, 360 Panchasayar, Kolkata, Distt.- Kolkata, Pin Code- 700094",
@@ -51365,9 +51376,9 @@
     "city": "Kolkata",
     "state": "West Bengal",
     "district": "Kolkata",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 22.5994503,
+    "longitude": 88.5287165,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Ruby College Of Nursing , 87, Naskarhat Road, Vill.- , Tehsil- Kolkata, Distt.- Kolkata, Pin Code- 700039",
@@ -51376,9 +51387,9 @@
     "city": "Kolkata",
     "state": "West Bengal",
     "district": "Kolkata",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 22.5280284,
+    "longitude": 88.3863445,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Sadhana Memorial School Of Nursing, K P C Medical College & Hospital, 1F, Raja Subodh Mullick Road, Jadavpur Vill.- , Tehsil- Kolkata, Distt.- Kolkata, Pin Code- 700032",
@@ -51387,9 +51398,9 @@
     "city": "Kolkata",
     "state": "West Bengal",
     "district": "Kolkata",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 22.4936901,
+    "longitude": 88.3692687,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "School Of Nursing, Medical College & Hospital, 88, College Street, Kolkata, Distt.- Kolkata, Pin Code- 700073",
@@ -51398,9 +51409,9 @@
     "city": "Kolkata",
     "state": "West Bengal",
     "district": "Kolkata",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 22.5730558,
+    "longitude": 88.3616857,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "School Of Nursing, Ruby General Hospital Ltd, 87, Naskarhat Road, Kolkata, Distt.- Kolkata, Pin Code- 700039",
@@ -51409,9 +51420,9 @@
     "city": "Kolkata",
     "state": "West Bengal",
     "district": "Kolkata",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 22.5280284,
+    "longitude": 88.3863445,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Shova Rani Nursing College, K P C Medical College & Hospital, 1F, Raja Subodh Mullick Road, Jadavpur, Vill.- , Tehsil- Kolkata, Distt.- Kolkata, Pin Code- 700032",
@@ -51420,9 +51431,9 @@
     "city": "Kolkata",
     "state": "West Bengal",
     "district": "Kolkata",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 22.4936901,
+    "longitude": 88.3692687,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "Sister Florence College Of Nursing, 81, Diamond Harbour Road, Barisha, Kolkata, Distt.- Kolkata, Pin Code- 700008",
@@ -51464,9 +51475,9 @@
     "city": "Kolkata",
     "state": "West Bengal",
     "district": "South 24 Parganas",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 22.4288132,
+    "longitude": 88.2880458,
+    "coordinateStatus": "pin_centroid"
   },
   {
     "name": "West Bengal Govt College Of Nursing, S S K M Hospital Campus, 244, Acharya Jagadish Chandra Bose Road, Vill.- , Tehsil- Kolkata, Distt.- Kolkata, Pin Code- 700020",
@@ -51475,8 +51486,8 @@
     "city": "Kolkata",
     "state": "West Bengal",
     "district": "Kolkata",
-    "latitude": null,
-    "longitude": null,
-    "coordinateStatus": "undefined_flagged"
+    "latitude": 22.5377634,
+    "longitude": 88.3514683,
+    "coordinateStatus": "pin_centroid"
   }
 ]
