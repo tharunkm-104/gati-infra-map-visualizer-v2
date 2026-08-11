@@ -7,7 +7,7 @@ const HOVER_DELAY_MS = 550;
 const GATI = {
   inkMuted: "#9AA3AB",   // --ink-300/400 grey-teal (NABH, high-volume, recessive)
   teal: "#006B76",       // nursing colleges
-  blue: "#48878F",       // medical colleges
+  gold: "#C9962C",       // medical colleges
   goldBright: "#E5A812",
   orange: "#F39821",     // formal German / Goethe
   goldDeep: "#9E7619",   // HEIs offering German
@@ -29,7 +29,7 @@ const VIEW_MODES = {
       { key: "formal_german_raw", label: "Formal German Infrastructure (Goethe/PASCH/Zentrum + HEIs + Exam Centres)", color: GATI.orange },
       { key: "general_skilling_raw", label: "General Skilling Infrastructure (PDOT/SIIC/IISC + Private Training Orgs)", color: GATI.goldDeepest },
       { key: "nursing_colleges", label: "INC Nursing Colleges", color: GATI.teal },
-      { key: "medical_colleges", label: "NMC Medical Colleges", color: GATI.blue },
+      { key: "medical_colleges", label: "NMC Medical Colleges", color: GATI.gold },
       { key: "health_facilities", label: "NABH Accredited Health Facilities", color: GATI.inkMuted },
     ],
   },
@@ -42,8 +42,20 @@ const VIEW_MODES = {
       { key: "pdot_siics", label: "PDOT/SIIC Centres", color: GATI.goldDeepest },
       { key: "iiscs", label: "IISC Centres", color: "#B0821C" },
       { key: "private_training", label: "Private German Training Organisations", color: "#D9B15E" },
+      // Point-only series. Individually geocoded skilling points collapse PDOT,
+      // SIIC and IISC into one subtype, so they cannot be attributed to the three
+      // series above. Without this entry they had no matching series key, fell
+      // through to the grey fallback colour, and no legend chip controlled them.
+      // pointOnly: excluded from the table and the aggregate strip, because its
+      // rows are already counted inside pdot_siics + iiscs + private_training.
+      {
+        key: "general_skilling_raw",
+        label: "PDOT/SIIC/IISC mapped points (not split by type)",
+        color: GATI.goldDeepest,
+        pointOnly: true,
+      },
       { key: "nursing_colleges", label: "INC Nursing Colleges", color: GATI.teal },
-      { key: "medical_colleges", label: "NMC Medical Colleges", color: GATI.blue },
+      { key: "medical_colleges", label: "NMC Medical Colleges", color: GATI.gold },
       { key: "health_facilities", label: "NABH Accredited Health Facilities", color: GATI.inkMuted },
     ],
   },
@@ -101,8 +113,14 @@ function currentSeries() {
   return VIEW_MODES[viewMode].series;
 }
 
+// Series that carry a count column in cities.json. Point-only series are
+// excluded: counting them would double-count rows already in other series.
+function countableSeries() {
+  return currentSeries().filter((s) => !s.pointOnly);
+}
+
 function activeSeries() {
-  return currentSeries().filter((s) => activeCategories.has(s.key));
+  return countableSeries().filter((s) => activeCategories.has(s.key));
 }
 
 function resetActiveCategories() {
@@ -268,7 +286,7 @@ function pointMarker(feature, level, latitude, longitude) {
 }
 
 function locationHoverHtml(point) {
-  const rows = currentSeries()
+  const rows = countableSeries()
     .map((s) => {
       const off = activeCategories.has(s.key) ? "" : " hover-row--off";
       return `<div class="hover-row${off}"><span>${s.label}</span><b>${format.format(point[s.key] || 0)}</b></div>`;
@@ -280,14 +298,17 @@ function locationHoverHtml(point) {
 // Canvas circleMarker -- cheap enough to draw every point at any zoom.
 function infrastructureMarker(point, latitude, longitude) {
   const color = pointColor(point);
+  // Approximate coordinates (PIN-code centroids, shared points) render hollow:
+  // coloured ring, no fill, so precision is visible at a glance.
+  const approximate = point.coordinateStatus === "pin_centroid";
   const marker = L.circleMarker([latitude, longitude], {
     renderer: infraCanvas,
-    radius: 4.5,
-    weight: 1,
-    color: "#ffffff",
-    opacity: 0.9,
+    radius: approximate ? 5 : 4.5,
+    weight: approximate ? 1.6 : 1,
+    color: approximate ? color : "#ffffff",
+    opacity: approximate ? 1 : 0.9,
     fillColor: color,
-    fillOpacity: 0.95,
+    fillOpacity: approximate ? 0 : 0.95,
   });
   bindHover(marker, () => infrastructureHoverHtml(point));
   return marker;
@@ -302,12 +323,35 @@ function pointColor(point) {
   return series ? series.color : FALLBACK_COLOR;
 }
 
+function infrastructureDetailRows(point) {
+  const fields = [
+    ["Facility type", point.facilityType],
+    ["Ownership", point.ownership],
+    ["NABH status", point.nabhStatus],
+    ["Corridor eligibility", point.corridorEligibility],
+  ];
+  return fields
+    .filter(([, value]) => value)
+    .map(([label, value]) => `<div class="hover-row"><span>${label}</span><b>${value}</b></div>`)
+    .join("");
+}
+
+const STATUS_LABEL = {
+  source: "As given in source data",
+  pin_centroid: "Approximate \u2014 PIN-code centroid or point shared with another institution",
+  researched_override: "Corrected \u2014 source coordinate was wrong, replaced after research",
+};
+
 function infrastructureHoverHtml(point) {
+  const status = STATUS_LABEL[point.coordinateStatus] || point.coordinateStatus;
   return `
     <strong>${point.name || "Unnamed entry"}</strong>
     <div class="hover-row"><span>Category</span><b>${point.subtype}</b></div>
     <div class="hover-row"><span>City</span><b>${point.city}</b></div>
-    <div class="hover-note">Ownership (Govt./Private) and facility-specific parameters are not present in the source data for this entry.</div>
+    ${infrastructureDetailRows(point)}
+    <div class="hover-note">Coordinate: ${status}.${
+      point.ownershipBasis ? ` Ownership: ${point.ownershipBasis.toLowerCase()}.` : ""
+    }</div>
   `;
 }
 
@@ -352,14 +396,14 @@ function renderAggregateSummary() {
     host.innerHTML = "";
     return;
   }
-  const items = currentSeries()
+  const items = countableSeries()
     .map((s) => {
       const total = cities.reduce((sum, c) => sum + (c[s.key] || 0), 0);
       const off = activeCategories.has(s.key) ? "" : " summary-item--off";
       return `<div class="summary-item${off}"><span class="swatch" style="background:${s.color}"></span><b>${format.format(total)}</b><span class="summary-label">${s.label}</span></div>`;
     })
     .join("");
-  const grand = currentSeries().reduce(
+  const grand = countableSeries().reduce(
     (sum, s) => sum + cities.reduce((inner, c) => inner + (c[s.key] || 0), 0),
     0
   );
@@ -402,7 +446,7 @@ function renderTable(level) {
   const container = document.getElementById("location-table");
   const rows = level === "state" ? states : cities;
   const sorted = rows.slice().sort((a, b) => (a.levelName || a.city || a.state).localeCompare(b.levelName || b.city || b.state));
-  const series = currentSeries();
+  const series = countableSeries();
   // Drives the fixed-width grid columns in styles.css so the table scrolls
   // horizontally instead of compressing.
   container.style.setProperty("--col-count", series.length);
@@ -445,10 +489,12 @@ map.on("zoomend moveend", () => {
   drawMarkers();
 });
 
+const RENDERABLE_STATUSES = new Set(["source", "pin_centroid", "researched_override"]);
+
 function isRenderableInfra(point) {
+  // "duplicate_collapsed" and "undefined_flagged" stay in the data but off the map.
   return (
-    point.coordinateStatus !== "undefined_flagged" &&
-    point.coordinateStatus !== "outside_city_limits" &&
+    RENDERABLE_STATUSES.has(point.coordinateStatus) &&
     Number.isFinite(point.latitude) &&
     Number.isFinite(point.longitude) &&
     !(point.latitude === 0 && point.longitude === 0)
