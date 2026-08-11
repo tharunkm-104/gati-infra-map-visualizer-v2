@@ -7,7 +7,7 @@ const HOVER_DELAY_MS = 550;
 const GATI = {
   inkMuted: "#9AA3AB",   // --ink-300/400 grey-teal (NABH, high-volume, recessive)
   teal: "#006B76",       // nursing colleges
-  gold: "#C9962C",       // medical colleges
+  blue: "#48878F",       // medical colleges
   goldBright: "#E5A812",
   orange: "#F39821",     // formal German / Goethe
   goldDeep: "#9E7619",   // HEIs offering German
@@ -29,7 +29,7 @@ const VIEW_MODES = {
       { key: "formal_german_raw", label: "Formal German Infrastructure (Goethe/PASCH/Zentrum + HEIs + Exam Centres)", color: GATI.orange },
       { key: "general_skilling_raw", label: "General Skilling Infrastructure (PDOT/SIIC/IISC + Private Training Orgs)", color: GATI.goldDeepest },
       { key: "nursing_colleges", label: "INC Nursing Colleges", color: GATI.teal },
-      { key: "medical_colleges", label: "NMC Medical Colleges", color: GATI.gold },
+      { key: "medical_colleges", label: "NMC Medical Colleges", color: GATI.blue },
       { key: "health_facilities", label: "NABH Accredited Health Facilities", color: GATI.inkMuted },
     ],
   },
@@ -43,7 +43,7 @@ const VIEW_MODES = {
       { key: "iiscs", label: "IISC Centres", color: "#B0821C" },
       { key: "private_training", label: "Private German Training Organisations", color: "#D9B15E" },
       { key: "nursing_colleges", label: "INC Nursing Colleges", color: GATI.teal },
-      { key: "medical_colleges", label: "NMC Medical Colleges", color: GATI.gold },
+      { key: "medical_colleges", label: "NMC Medical Colleges", color: GATI.blue },
       { key: "health_facilities", label: "NABH Accredited Health Facilities", color: GATI.inkMuted },
     ],
   },
