@@ -27,7 +27,7 @@ const VIEW_MODES = {
     label: "By category pair",
     series: [
       { key: "formal_german_raw", label: "Formal German Infrastructure (Goethe/PASCH/Zentrum + HEIs + Exam Centres)", color: GATI.orange },
-      { key: "general_skilling_raw", label: "General Skilling Infrastructure (PDOT/SIIC/IISC + Private Training Orgs)", color: GATI.goldDeepest },
+      { key: "general_skilling_raw", label: "General Skilling Infrastructure (PDOT/SIIC/IISC)", color: GATI.goldDeepest },
       { key: "nursing_colleges", label: "INC Nursing Colleges", color: GATI.teal },
       { key: "medical_colleges", label: "NMC Medical Colleges", color: GATI.gold },
       { key: "health_facilities", label: "NABH Accredited Health Facilities", color: GATI.inkMuted },
@@ -41,7 +41,6 @@ const VIEW_MODES = {
       { key: "exam_centres", label: "Goethe/TELC Exam Centres", color: GATI.goldBright },
       { key: "pdot_siics", label: "PDOT/SIIC Centres", color: GATI.goldDeepest },
       { key: "iiscs", label: "IISC Centres", color: "#B0821C" },
-      { key: "private_training", label: "Private German Training Organisations", color: "#D9B15E" },
       { key: "nursing_colleges", label: "INC Nursing Colleges", color: GATI.teal },
       { key: "medical_colleges", label: "NMC Medical Colleges", color: GATI.gold },
       { key: "health_facilities", label: "NABH Accredited Health Facilities", color: GATI.inkMuted },
