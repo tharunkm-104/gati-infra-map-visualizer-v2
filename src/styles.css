@@ -111,10 +111,12 @@ h1 {
   border-radius: 8px;
   padding: 10px 12px;
   font-size: 12px;
-  max-width: 340px;
+  max-width: 360px;
+  max-height: 42vh;
+  overflow-y: auto;
 }
 
-.legend div {
+.legend > div {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -123,6 +125,93 @@ h1 {
 .legend-note {
   color: var(--muted);
   line-height: 1.4;
+}
+
+.legend-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  text-align: left;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 7px 10px;
+  cursor: pointer;
+  font: inherit;
+  font-size: 12px;
+  line-height: 1.25;
+  transition: background 120ms ease, color 120ms ease;
+}
+
+/* active = solid fill in the category colour, white text.
+   inactive = transparent fill, coloured border + coloured text. */
+.legend-chip.active {
+  font-weight: 600;
+}
+
+.legend-chip:not(.active) {
+  opacity: 0.85;
+}
+
+.legend-chip:hover {
+  filter: brightness(1.06);
+}
+
+.chip-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex: none;
+}
+
+/* ---- aggregate summary strip ---- */
+.aggregate-summary {
+  position: absolute;
+  z-index: 500;
+  top: 66px;
+  left: 18px;
+  max-width: 360px;
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 12px;
+  pointer-events: auto;
+}
+
+.summary-title {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.summary-items {
+  display: grid;
+  gap: 3px;
+}
+
+.summary-item {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.summary-item--off {
+  opacity: 0.35;
+}
+
+.summary-label {
+  color: var(--muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.hover-row--off {
+  opacity: 0.4;
 }
 
 .swatch {
@@ -210,18 +299,31 @@ h1 {
 }
 
 .location-table {
-  display: grid;
+  display: block;
   font-size: 12px;
   overflow-x: auto;
+  /* --col-count is set from renderTable() so columns track the active view mode */
 }
 
 .table-row {
   display: grid;
-  grid-template-columns: 120px repeat(auto-fit, minmax(90px, 1fr));
+  /* Fixed-width columns + max-content width force a horizontal scrollbar
+     instead of auto-fit compressing everything into the pane. */
+  grid-template-columns: 140px repeat(var(--col-count, 3), 160px) 130px;
+  width: max-content;
+  min-width: 100%;
   gap: 8px;
   padding: 8px 0;
   border-bottom: 1px solid var(--line);
   align-items: center;
+}
+
+.table-row .col-off {
+  opacity: 0.35;
+}
+
+.row-total {
+  font-weight: 700;
 }
 
 .table-head {
