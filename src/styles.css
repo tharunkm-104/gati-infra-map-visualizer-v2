@@ -178,6 +178,11 @@ h1 {
   font-size: 12px;
   pointer-events: auto;
 }
+.aggregate-summary span, 
+.aggregate-summary div {
+  white-space: normal;
+  word-break: break-word;
+}
 
 .summary-title {
   font-size: 10px;
